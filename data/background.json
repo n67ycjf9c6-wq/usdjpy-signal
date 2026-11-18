@@ -1,0 +1,14 @@
+{
+  "version": "4.2.0",
+  "samples": [
+    {
+      "capturedAt": "2026-11-18T16:57:54+00:00",
+      "quoteAt": "2026-11-18T16:57:51Z",
+      "mid": 159.2315,
+      "bid": 159.228,
+      "ask": 159.235,
+      "marketState": "open",
+      "stale": false
+    }
+  ]
+}
