@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""NAKAMURA LAB v4.2.1 — acquire real OHLC history; never interpolate unknown prices."""
+"""NAKAMURA LAB v4.2.2 — acquire real OHLC history; never interpolate unknown prices."""
 import datetime as dt
 import json
 import os
@@ -12,7 +12,7 @@ NOW = dt.datetime.now(dt.timezone.utc)
 
 
 def fetch_json(path):
-    req = Request(BASE + path, headers={"User-Agent": "NAKAMURA-LAB/4.2.1", "Accept": "application/json"})
+    req = Request(BASE + path, headers={"User-Agent": "NAKAMURA-LAB/4.2.2", "Accept": "application/json"})
     with urlopen(req, timeout=25) as response:
         return json.load(response)
 
@@ -77,18 +77,25 @@ def main():
         old = json.loads(DEST.read_text(encoding="utf-8"))
     bars_out = dict(old.get("bars") or {})
     errors = []
+    fetch_details = {}
     success = 0
+    previous_update = parse_utc(old.get("updatedAt"))
+    run_gap_minutes = (NOW - previous_update).total_seconds() / 60 if previous_update else None
     for interval, keep, limit in (("1m", 1440, 300), ("1h", 336, 168)):
         try:
             data = fetch_json(f"/api/USDJPY/ohlc?interval={interval}&limit={limit}")
             got = normalize_bars(data, interval)
             if not got:
                 raise ValueError("No valid closed candles")
+            before = {b.get("openTime") for b in bars_out.get(interval, []) if isinstance(b, dict)}
+            added = len(set(got) - before)
             bars_out[interval] = merge(bars_out.get(interval, []), got, keep)
+            fetch_details[interval] = {"fetched": len(got), "newBars": added, "archived": len(bars_out[interval]), "sourceOldestAt": min(got), "sourceNewestAt": max(got)}
             success += 1
             print(f"{interval}: fetched={len(got)}, archived={len(bars_out[interval])}")
         except Exception as exc:
             errors.append(f"{interval}: {type(exc).__name__}: {exc}")
+            fetch_details[interval] = {"error": str(exc)[:200]}
     if success == 0:
         raise RuntimeError("No historical OHLC updated; old archive unchanged. " + "; ".join(errors))
     snapshots = list(old.get("samples") or [])
@@ -104,10 +111,14 @@ def main():
     except Exception as exc:
         errors.append(f"tick: {type(exc).__name__}: {exc}")
     snapshots = sorted({x["capturedAt"]: x for x in snapshots if isinstance(x, dict) and x.get("capturedAt")}.values(), key=lambda x: x["capturedAt"])[-2016:]
-    payload = {"version": "4.2.1", "updatedAt": NOW.isoformat(timespec="seconds"),
+    payload = {"version": "4.2.2", "updatedAt": NOW.isoformat(timespec="seconds"),
                "status": "partial" if errors else "ok", "errors": errors,
                "source": "biquote OHLC (confirmed candles) + quote snapshots",
                "disclaimer": "Rolling OHLC is not 15-second tick data. Missing bars are not interpolated. Market closures may create gaps.",
+               "collection": {"previousSavedAt": old.get("updatedAt"),
+                   "minutesSincePreviousSave": round(run_gap_minutes, 1) if run_gap_minutes is not None else None,
+                   "intervalMinutesExpected": 10, "largeRunGap": run_gap_minutes is not None and run_gap_minutes > 25,
+                   "fetch": fetch_details, "note": "Execution gaps cannot always be recovered if the provider's rolling OHLC history has expired."},
                "samples": snapshots, "bars": bars_out,
                "quality": {"1m": stats(bars_out.get("1m", []), 60), "1h": stats(bars_out.get("1h", []), 3600)}}
     DEST.parent.mkdir(parents=True, exist_ok=True)
