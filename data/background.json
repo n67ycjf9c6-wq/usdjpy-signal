@@ -27,6 +27,15 @@
       "ask": 159.596,
       "marketState": "open",
       "stale": false
+    },
+    {
+      "capturedAt": "2026-11-19T13:00:06+00:00",
+      "quoteAt": "2026-11-19T13:00:06Z",
+      "mid": 159.9205,
+      "bid": 159.917,
+      "ask": 159.924,
+      "marketState": "open",
+      "stale": false
     }
   ]
 }
