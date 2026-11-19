@@ -1,10 +1,33 @@
 {
-  "version": "4.2.1",
-  "updatedAt": "2026-11-19T14:33:00+00:00",
+  "version": "4.2.2",
+  "updatedAt": "2026-11-19T15:04:36+00:00",
   "status": "ok",
   "errors": [],
   "source": "biquote OHLC (confirmed candles) + quote snapshots",
   "disclaimer": "Rolling OHLC is not 15-second tick data. Missing bars are not interpolated. Market closures may create gaps.",
+  "collection": {
+    "previousSavedAt": "2026-11-19T14:33:00+00:00",
+    "minutesSincePreviousSave": 31.6,
+    "intervalMinutesExpected": 10,
+    "largeRunGap": true,
+    "fetch": {
+      "1m": {
+        "fetched": 300,
+        "newBars": 31,
+        "archived": 331,
+        "sourceOldestAt": "2026-11-19T10:04:00Z",
+        "sourceNewestAt": "2026-11-19T15:03:00Z"
+      },
+      "1h": {
+        "fetched": 168,
+        "newBars": 1,
+        "archived": 169,
+        "sourceOldestAt": "2026-11-10T15:00:00Z",
+        "sourceNewestAt": "2026-11-19T14:00:00Z"
+      }
+    },
+    "note": "Execution gaps cannot always be recovered if the provider's rolling OHLC history has expired."
+  },
   "samples": [
     {
       "capturedAt": "2026-11-18T16:57:54+00:00",
@@ -48,6 +71,15 @@
       "mid": 159.8775,
       "bid": 159.874,
       "ask": 159.881,
+      "marketState": "open",
+      "stale": false
+    },
+    {
+      "capturedAt": "2026-11-19T15:04:36+00:00",
+      "quoteAt": "2026-11-19T15:04:36Z",
+      "mid": 159.9045,
+      "bid": 159.901,
+      "ask": 159.908,
       "marketState": "open",
       "stale": false
     }
@@ -2453,6 +2485,254 @@
         "low": 159.8425,
         "close": 159.8745,
         "tickVolume": 71
+      },
+      {
+        "openTime": "2026-11-19T14:33:00Z",
+        "open": 159.8735,
+        "high": 159.8895,
+        "low": 159.8655,
+        "close": 159.8865,
+        "tickVolume": 66
+      },
+      {
+        "openTime": "2026-11-19T14:34:00Z",
+        "open": 159.8895,
+        "high": 159.8895,
+        "low": 159.8735,
+        "close": 159.8775,
+        "tickVolume": 55
+      },
+      {
+        "openTime": "2026-11-19T14:35:00Z",
+        "open": 159.8755,
+        "high": 159.8755,
+        "low": 159.8545,
+        "close": 159.8655,
+        "tickVolume": 65
+      },
+      {
+        "openTime": "2026-11-19T14:36:00Z",
+        "open": 159.8665,
+        "high": 159.8755,
+        "low": 159.8575,
+        "close": 159.8655,
+        "tickVolume": 62
+      },
+      {
+        "openTime": "2026-11-19T14:37:00Z",
+        "open": 159.8695,
+        "high": 159.8855,
+        "low": 159.8695,
+        "close": 159.8805,
+        "tickVolume": 59
+      },
+      {
+        "openTime": "2026-11-19T14:38:00Z",
+        "open": 159.8825,
+        "high": 159.8965,
+        "low": 159.8795,
+        "close": 159.8875,
+        "tickVolume": 54
+      },
+      {
+        "openTime": "2026-11-19T14:39:00Z",
+        "open": 159.8865,
+        "high": 159.8865,
+        "low": 159.8565,
+        "close": 159.8565,
+        "tickVolume": 57
+      },
+      {
+        "openTime": "2026-11-19T14:40:00Z",
+        "open": 159.8535,
+        "high": 159.8535,
+        "low": 159.7955,
+        "close": 159.8285,
+        "tickVolume": 113
+      },
+      {
+        "openTime": "2026-11-19T14:41:00Z",
+        "open": 159.8325,
+        "high": 159.8655,
+        "low": 159.8315,
+        "close": 159.8625,
+        "tickVolume": 86
+      },
+      {
+        "openTime": "2026-11-19T14:42:00Z",
+        "open": 159.8645,
+        "high": 159.8695,
+        "low": 159.8435,
+        "close": 159.8495,
+        "tickVolume": 74
+      },
+      {
+        "openTime": "2026-11-19T14:43:00Z",
+        "open": 159.8515,
+        "high": 159.8615,
+        "low": 159.8465,
+        "close": 159.8565,
+        "tickVolume": 62
+      },
+      {
+        "openTime": "2026-11-19T14:44:00Z",
+        "open": 159.8545,
+        "high": 159.8765,
+        "low": 159.8525,
+        "close": 159.8735,
+        "tickVolume": 52
+      },
+      {
+        "openTime": "2026-11-19T14:45:00Z",
+        "open": 159.8715,
+        "high": 159.8895,
+        "low": 159.8665,
+        "close": 159.8755,
+        "tickVolume": 66
+      },
+      {
+        "openTime": "2026-11-19T14:46:00Z",
+        "open": 159.8745,
+        "high": 159.8915,
+        "low": 159.8665,
+        "close": 159.8815,
+        "tickVolume": 63
+      },
+      {
+        "openTime": "2026-11-19T14:47:00Z",
+        "open": 159.8795,
+        "high": 159.9095,
+        "low": 159.8795,
+        "close": 159.9065,
+        "tickVolume": 50
+      },
+      {
+        "openTime": "2026-11-19T14:48:00Z",
+        "open": 159.9085,
+        "high": 159.9135,
+        "low": 159.8935,
+        "close": 159.9085,
+        "tickVolume": 53
+      },
+      {
+        "openTime": "2026-11-19T14:49:00Z",
+        "open": 159.9065,
+        "high": 159.9345,
+        "low": 159.9055,
+        "close": 159.9275,
+        "tickVolume": 46
+      },
+      {
+        "openTime": "2026-11-19T14:50:00Z",
+        "open": 159.9285,
+        "high": 159.9325,
+        "low": 159.9155,
+        "close": 159.9275,
+        "tickVolume": 68
+      },
+      {
+        "openTime": "2026-11-19T14:51:00Z",
+        "open": 159.9285,
+        "high": 159.9405,
+        "low": 159.9255,
+        "close": 159.9385,
+        "tickVolume": 61
+      },
+      {
+        "openTime": "2026-11-19T14:52:00Z",
+        "open": 159.9395,
+        "high": 159.9465,
+        "low": 159.9155,
+        "close": 159.9245,
+        "tickVolume": 57
+      },
+      {
+        "openTime": "2026-11-19T14:53:00Z",
+        "open": 159.9275,
+        "high": 159.9315,
+        "low": 159.9145,
+        "close": 159.9205,
+        "tickVolume": 46
+      },
+      {
+        "openTime": "2026-11-19T14:54:00Z",
+        "open": 159.9175,
+        "high": 159.9185,
+        "low": 159.8905,
+        "close": 159.9035,
+        "tickVolume": 66
+      },
+      {
+        "openTime": "2026-11-19T14:55:00Z",
+        "open": 159.9075,
+        "high": 159.9085,
+        "low": 159.8875,
+        "close": 159.8955,
+        "tickVolume": 49
+      },
+      {
+        "openTime": "2026-11-19T14:56:00Z",
+        "open": 159.8945,
+        "high": 159.8955,
+        "low": 159.8785,
+        "close": 159.8805,
+        "tickVolume": 51
+      },
+      {
+        "openTime": "2026-11-19T14:57:00Z",
+        "open": 159.8785,
+        "high": 159.9105,
+        "low": 159.8645,
+        "close": 159.9095,
+        "tickVolume": 54
+      },
+      {
+        "openTime": "2026-11-19T14:58:00Z",
+        "open": 159.9085,
+        "high": 159.9085,
+        "low": 159.8815,
+        "close": 159.8935,
+        "tickVolume": 52
+      },
+      {
+        "openTime": "2026-11-19T14:59:00Z",
+        "open": 159.8955,
+        "high": 159.9025,
+        "low": 159.8935,
+        "close": 159.8945,
+        "tickVolume": 37
+      },
+      {
+        "openTime": "2026-11-19T15:00:00Z",
+        "open": 159.8965,
+        "high": 159.9095,
+        "low": 159.8695,
+        "close": 159.9075,
+        "tickVolume": 47
+      },
+      {
+        "openTime": "2026-11-19T15:01:00Z",
+        "open": 159.9085,
+        "high": 159.9235,
+        "low": 159.9055,
+        "close": 159.9125,
+        "tickVolume": 25
+      },
+      {
+        "openTime": "2026-11-19T15:02:00Z",
+        "open": 159.9115,
+        "high": 159.9235,
+        "low": 159.9035,
+        "close": 159.9075,
+        "tickVolume": 63
+      },
+      {
+        "openTime": "2026-11-19T15:03:00Z",
+        "open": 159.9085,
+        "high": 159.9315,
+        "low": 159.9065,
+        "close": 159.9205,
+        "tickVolume": 58
       }
     ],
     "1h": [
@@ -3799,21 +4079,29 @@
         "low": 159.8755,
         "close": 159.8755,
         "tickVolume": 1911
+      },
+      {
+        "openTime": "2026-11-19T14:00:00Z",
+        "open": 159.8775,
+        "high": 159.9465,
+        "low": 159.7955,
+        "close": 159.8945,
+        "tickVolume": 3100
       }
     ]
   },
   "quality": {
     "1m": {
-      "count": 300,
+      "count": 331,
       "missingBetweenBars": 0,
       "largestGapMinutes": 1.0,
-      "lastClosedAt": "2026-11-19T14:32:00Z"
+      "lastClosedAt": "2026-11-19T15:03:00Z"
     },
     "1h": {
-      "count": 168,
+      "count": 169,
       "missingBetweenBars": 48,
       "largestGapMinutes": 2940.0,
-      "lastClosedAt": "2026-11-19T13:00:00Z"
+      "lastClosedAt": "2026-11-19T14:00:00Z"
     }
   }
 }
