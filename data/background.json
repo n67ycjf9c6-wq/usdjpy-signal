@@ -1,13 +1,13 @@
 {
   "version": "4.2.2",
-  "updatedAt": "2026-11-21T08:52:29+00:00",
+  "updatedAt": "2026-11-21T16:33:03+00:00",
   "status": "ok",
   "errors": [],
   "source": "biquote OHLC (confirmed candles) + quote snapshots",
   "disclaimer": "Rolling OHLC is not 15-second tick data. Missing bars are not interpolated. Market closures may create gaps.",
   "collection": {
-    "previousSavedAt": "2026-11-21T01:44:23+00:00",
-    "minutesSincePreviousSave": 428.1,
+    "previousSavedAt": "2026-11-21T08:52:29+00:00",
+    "minutesSincePreviousSave": 460.6,
     "intervalMinutesExpected": 10,
     "largeRunGap": true,
     "fetch": {
@@ -130,6 +130,15 @@
     },
     {
       "capturedAt": "2026-11-21T08:52:29+00:00",
+      "quoteAt": "2026-11-20T21:58:48Z",
+      "mid": 158.542,
+      "bid": 158.536,
+      "ask": 158.548,
+      "marketState": "closed",
+      "stale": true
+    },
+    {
+      "capturedAt": "2026-11-21T16:33:03+00:00",
       "quoteAt": "2026-11-20T21:58:48Z",
       "mid": 158.542,
       "bid": 158.536,
