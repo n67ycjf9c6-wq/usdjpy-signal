@@ -1,29 +1,29 @@
 {
   "version": "4.2.2",
-  "updatedAt": "2026-11-22T22:28:12+00:00",
+  "updatedAt": "2026-11-23T03:02:07+00:00",
   "status": "ok",
   "errors": [],
   "source": "biquote OHLC (confirmed candles) + quote snapshots",
   "disclaimer": "Rolling OHLC is not 15-second tick data. Missing bars are not interpolated. Market closures may create gaps.",
   "collection": {
-    "previousSavedAt": "2026-11-22T17:08:34+00:00",
-    "minutesSincePreviousSave": 319.6,
+    "previousSavedAt": "2026-11-22T22:28:12+00:00",
+    "minutesSincePreviousSave": 273.9,
     "intervalMinutesExpected": 10,
     "largeRunGap": true,
     "fetch": {
       "1m": {
         "fetched": 300,
-        "newBars": 24,
+        "newBars": 274,
         "archived": 1440,
-        "sourceOldestAt": "2026-11-20T17:22:00Z",
-        "sourceNewestAt": "2026-11-22T22:27:00Z"
+        "sourceOldestAt": "2026-11-20T21:56:00Z",
+        "sourceNewestAt": "2026-11-23T03:01:00Z"
       },
       "1h": {
         "fetched": 168,
-        "newBars": 1,
-        "archived": 200,
-        "sourceOldestAt": "2026-11-11T22:00:00Z",
-        "sourceNewestAt": "2026-11-20T21:00:00Z"
+        "newBars": 5,
+        "archived": 205,
+        "sourceOldestAt": "2026-11-12T03:00:00Z",
+        "sourceNewestAt": "2026-11-23T02:00:00Z"
       }
     },
     "note": "Execution gaps cannot always be recovered if the provider's rolling OHLC history has expired."
@@ -190,2202 +190,19 @@
       "ask": 158.605,
       "marketState": "open",
       "stale": false
+    },
+    {
+      "capturedAt": "2026-11-23T03:02:07+00:00",
+      "quoteAt": "2026-11-23T03:02:08Z",
+      "mid": 158.9365,
+      "bid": 158.933,
+      "ask": 158.94,
+      "marketState": "open",
+      "stale": false
     }
   ],
   "bars": {
     "1m": [
-      {
-        "openTime": "2026-11-19T12:53:00Z",
-        "open": 159.9095,
-        "high": 159.9125,
-        "low": 159.8995,
-        "close": 159.9045,
-        "tickVolume": 28
-      },
-      {
-        "openTime": "2026-11-19T12:54:00Z",
-        "open": 159.9025,
-        "high": 159.9095,
-        "low": 159.9015,
-        "close": 159.9065,
-        "tickVolume": 24
-      },
-      {
-        "openTime": "2026-11-19T12:55:00Z",
-        "open": 159.9055,
-        "high": 159.9085,
-        "low": 159.8995,
-        "close": 159.9065,
-        "tickVolume": 30
-      },
-      {
-        "openTime": "2026-11-19T12:56:00Z",
-        "open": 159.9055,
-        "high": 159.9115,
-        "low": 159.9025,
-        "close": 159.9025,
-        "tickVolume": 20
-      },
-      {
-        "openTime": "2026-11-19T12:57:00Z",
-        "open": 159.9015,
-        "high": 159.9195,
-        "low": 159.9015,
-        "close": 159.9125,
-        "tickVolume": 26
-      },
-      {
-        "openTime": "2026-11-19T12:58:00Z",
-        "open": 159.9145,
-        "high": 159.9165,
-        "low": 159.9115,
-        "close": 159.9135,
-        "tickVolume": 19
-      },
-      {
-        "openTime": "2026-11-19T12:59:00Z",
-        "open": 159.9165,
-        "high": 159.9295,
-        "low": 159.9125,
-        "close": 159.9295,
-        "tickVolume": 29
-      },
-      {
-        "openTime": "2026-11-19T13:00:00Z",
-        "open": 159.9265,
-        "high": 159.9325,
-        "low": 159.9135,
-        "close": 159.9325,
-        "tickVolume": 44
-      },
-      {
-        "openTime": "2026-11-19T13:01:00Z",
-        "open": 159.9375,
-        "high": 159.9455,
-        "low": 159.9295,
-        "close": 159.9355,
-        "tickVolume": 39
-      },
-      {
-        "openTime": "2026-11-19T13:02:00Z",
-        "open": 159.9375,
-        "high": 159.9405,
-        "low": 159.9255,
-        "close": 159.9285,
-        "tickVolume": 33
-      },
-      {
-        "openTime": "2026-11-19T13:03:00Z",
-        "open": 159.9275,
-        "high": 159.9375,
-        "low": 159.9235,
-        "close": 159.9295,
-        "tickVolume": 37
-      },
-      {
-        "openTime": "2026-11-19T13:04:00Z",
-        "open": 159.9305,
-        "high": 159.9445,
-        "low": 159.9305,
-        "close": 159.9375,
-        "tickVolume": 38
-      },
-      {
-        "openTime": "2026-11-19T13:05:00Z",
-        "open": 159.9385,
-        "high": 159.9435,
-        "low": 159.9385,
-        "close": 159.9425,
-        "tickVolume": 32
-      },
-      {
-        "openTime": "2026-11-19T13:06:00Z",
-        "open": 159.9435,
-        "high": 159.9615,
-        "low": 159.9435,
-        "close": 159.9615,
-        "tickVolume": 43
-      },
-      {
-        "openTime": "2026-11-19T13:07:00Z",
-        "open": 159.9605,
-        "high": 159.9655,
-        "low": 159.9555,
-        "close": 159.9595,
-        "tickVolume": 45
-      },
-      {
-        "openTime": "2026-11-19T13:08:00Z",
-        "open": 159.9585,
-        "high": 159.9675,
-        "low": 159.9565,
-        "close": 159.9645,
-        "tickVolume": 35
-      },
-      {
-        "openTime": "2026-11-19T13:09:00Z",
-        "open": 159.9655,
-        "high": 159.9685,
-        "low": 159.9585,
-        "close": 159.9655,
-        "tickVolume": 33
-      },
-      {
-        "openTime": "2026-11-19T13:10:00Z",
-        "open": 159.9645,
-        "high": 159.9645,
-        "low": 159.9405,
-        "close": 159.9425,
-        "tickVolume": 32
-      },
-      {
-        "openTime": "2026-11-19T13:11:00Z",
-        "open": 159.9405,
-        "high": 159.9515,
-        "low": 159.9395,
-        "close": 159.9455,
-        "tickVolume": 35
-      },
-      {
-        "openTime": "2026-11-19T13:12:00Z",
-        "open": 159.9465,
-        "high": 159.9535,
-        "low": 159.9385,
-        "close": 159.9525,
-        "tickVolume": 31
-      },
-      {
-        "openTime": "2026-11-19T13:13:00Z",
-        "open": 159.9475,
-        "high": 159.9555,
-        "low": 159.9425,
-        "close": 159.9545,
-        "tickVolume": 22
-      },
-      {
-        "openTime": "2026-11-19T13:14:00Z",
-        "open": 159.9535,
-        "high": 159.9535,
-        "low": 159.9415,
-        "close": 159.9515,
-        "tickVolume": 38
-      },
-      {
-        "openTime": "2026-11-19T13:15:00Z",
-        "open": 159.9485,
-        "high": 159.9495,
-        "low": 159.9385,
-        "close": 159.9415,
-        "tickVolume": 22
-      },
-      {
-        "openTime": "2026-11-19T13:16:00Z",
-        "open": 159.9435,
-        "high": 159.9445,
-        "low": 159.9325,
-        "close": 159.9425,
-        "tickVolume": 29
-      },
-      {
-        "openTime": "2026-11-19T13:17:00Z",
-        "open": 159.9415,
-        "high": 159.9475,
-        "low": 159.9365,
-        "close": 159.9365,
-        "tickVolume": 35
-      },
-      {
-        "openTime": "2026-11-19T13:18:00Z",
-        "open": 159.9405,
-        "high": 159.9455,
-        "low": 159.9365,
-        "close": 159.9365,
-        "tickVolume": 24
-      },
-      {
-        "openTime": "2026-11-19T13:19:00Z",
-        "open": 159.9375,
-        "high": 159.9405,
-        "low": 159.9365,
-        "close": 159.9385,
-        "tickVolume": 11
-      },
-      {
-        "openTime": "2026-11-19T13:20:00Z",
-        "open": 159.9345,
-        "high": 159.9435,
-        "low": 159.9295,
-        "close": 159.9405,
-        "tickVolume": 35
-      },
-      {
-        "openTime": "2026-11-19T13:21:00Z",
-        "open": 159.9415,
-        "high": 159.9525,
-        "low": 159.9415,
-        "close": 159.9515,
-        "tickVolume": 26
-      },
-      {
-        "openTime": "2026-11-19T13:22:00Z",
-        "open": 159.9555,
-        "high": 159.9675,
-        "low": 159.9545,
-        "close": 159.9565,
-        "tickVolume": 30
-      },
-      {
-        "openTime": "2026-11-19T13:23:00Z",
-        "open": 159.9615,
-        "high": 159.9645,
-        "low": 159.9555,
-        "close": 159.9635,
-        "tickVolume": 31
-      },
-      {
-        "openTime": "2026-11-19T13:24:00Z",
-        "open": 159.9655,
-        "high": 159.9655,
-        "low": 159.9575,
-        "close": 159.9645,
-        "tickVolume": 16
-      },
-      {
-        "openTime": "2026-11-19T13:25:00Z",
-        "open": 159.9625,
-        "high": 159.9655,
-        "low": 159.9555,
-        "close": 159.9635,
-        "tickVolume": 21
-      },
-      {
-        "openTime": "2026-11-19T13:26:00Z",
-        "open": 159.9655,
-        "high": 159.9655,
-        "low": 159.9615,
-        "close": 159.9645,
-        "tickVolume": 22
-      },
-      {
-        "openTime": "2026-11-19T13:27:00Z",
-        "open": 159.9655,
-        "high": 159.9675,
-        "low": 159.9555,
-        "close": 159.9575,
-        "tickVolume": 23
-      },
-      {
-        "openTime": "2026-11-19T13:28:00Z",
-        "open": 159.9625,
-        "high": 159.9635,
-        "low": 159.9575,
-        "close": 159.9585,
-        "tickVolume": 12
-      },
-      {
-        "openTime": "2026-11-19T13:29:00Z",
-        "open": 159.9615,
-        "high": 159.9655,
-        "low": 159.9495,
-        "close": 159.9525,
-        "tickVolume": 23
-      },
-      {
-        "openTime": "2026-11-19T13:30:00Z",
-        "open": 159.9275,
-        "high": 159.9675,
-        "low": 159.9175,
-        "close": 159.9645,
-        "tickVolume": 72
-      },
-      {
-        "openTime": "2026-11-19T13:31:00Z",
-        "open": 159.9635,
-        "high": 159.9655,
-        "low": 159.9415,
-        "close": 159.9415,
-        "tickVolume": 21
-      },
-      {
-        "openTime": "2026-11-19T13:32:00Z",
-        "open": 159.9445,
-        "high": 159.9485,
-        "low": 159.9305,
-        "close": 159.9315,
-        "tickVolume": 43
-      },
-      {
-        "openTime": "2026-11-19T13:33:00Z",
-        "open": 159.9335,
-        "high": 159.9525,
-        "low": 159.9335,
-        "close": 159.9435,
-        "tickVolume": 34
-      },
-      {
-        "openTime": "2026-11-19T13:34:00Z",
-        "open": 159.9445,
-        "high": 159.9575,
-        "low": 159.9415,
-        "close": 159.9545,
-        "tickVolume": 38
-      },
-      {
-        "openTime": "2026-11-19T13:35:00Z",
-        "open": 159.9565,
-        "high": 159.9685,
-        "low": 159.9535,
-        "close": 159.9595,
-        "tickVolume": 46
-      },
-      {
-        "openTime": "2026-11-19T13:36:00Z",
-        "open": 159.9615,
-        "high": 159.9645,
-        "low": 159.9505,
-        "close": 159.9645,
-        "tickVolume": 40
-      },
-      {
-        "openTime": "2026-11-19T13:37:00Z",
-        "open": 159.9655,
-        "high": 159.9685,
-        "low": 159.9555,
-        "close": 159.9625,
-        "tickVolume": 38
-      },
-      {
-        "openTime": "2026-11-19T13:38:00Z",
-        "open": 159.9605,
-        "high": 159.9645,
-        "low": 159.9535,
-        "close": 159.9565,
-        "tickVolume": 27
-      },
-      {
-        "openTime": "2026-11-19T13:39:00Z",
-        "open": 159.9555,
-        "high": 159.9595,
-        "low": 159.9365,
-        "close": 159.9395,
-        "tickVolume": 37
-      },
-      {
-        "openTime": "2026-11-19T13:40:00Z",
-        "open": 159.9425,
-        "high": 159.9425,
-        "low": 159.9175,
-        "close": 159.9175,
-        "tickVolume": 46
-      },
-      {
-        "openTime": "2026-11-19T13:41:00Z",
-        "open": 159.9185,
-        "high": 159.9325,
-        "low": 159.9145,
-        "close": 159.9275,
-        "tickVolume": 35
-      },
-      {
-        "openTime": "2026-11-19T13:42:00Z",
-        "open": 159.9285,
-        "high": 159.9475,
-        "low": 159.9265,
-        "close": 159.9435,
-        "tickVolume": 40
-      },
-      {
-        "openTime": "2026-11-19T13:43:00Z",
-        "open": 159.9415,
-        "high": 159.9445,
-        "low": 159.9355,
-        "close": 159.9405,
-        "tickVolume": 27
-      },
-      {
-        "openTime": "2026-11-19T13:44:00Z",
-        "open": 159.9395,
-        "high": 159.9445,
-        "low": 159.9375,
-        "close": 159.9385,
-        "tickVolume": 27
-      },
-      {
-        "openTime": "2026-11-19T13:45:00Z",
-        "open": 159.9405,
-        "high": 159.9415,
-        "low": 159.9375,
-        "close": 159.9385,
-        "tickVolume": 22
-      },
-      {
-        "openTime": "2026-11-19T13:46:00Z",
-        "open": 159.9395,
-        "high": 159.9405,
-        "low": 159.9295,
-        "close": 159.9335,
-        "tickVolume": 19
-      },
-      {
-        "openTime": "2026-11-19T13:47:00Z",
-        "open": 159.9325,
-        "high": 159.9425,
-        "low": 159.9325,
-        "close": 159.9425,
-        "tickVolume": 23
-      },
-      {
-        "openTime": "2026-11-19T13:48:00Z",
-        "open": 159.9415,
-        "high": 159.9435,
-        "low": 159.9365,
-        "close": 159.9375,
-        "tickVolume": 26
-      },
-      {
-        "openTime": "2026-11-19T13:49:00Z",
-        "open": 159.9365,
-        "high": 159.9415,
-        "low": 159.9225,
-        "close": 159.9265,
-        "tickVolume": 31
-      },
-      {
-        "openTime": "2026-11-19T13:50:00Z",
-        "open": 159.9305,
-        "high": 159.9335,
-        "low": 159.9145,
-        "close": 159.9175,
-        "tickVolume": 26
-      },
-      {
-        "openTime": "2026-11-19T13:51:00Z",
-        "open": 159.9185,
-        "high": 159.9255,
-        "low": 159.9035,
-        "close": 159.9105,
-        "tickVolume": 28
-      },
-      {
-        "openTime": "2026-11-19T13:52:00Z",
-        "open": 159.9125,
-        "high": 159.9135,
-        "low": 159.9025,
-        "close": 159.9065,
-        "tickVolume": 44
-      },
-      {
-        "openTime": "2026-11-19T13:53:00Z",
-        "open": 159.9055,
-        "high": 159.9135,
-        "low": 159.8975,
-        "close": 159.8995,
-        "tickVolume": 33
-      },
-      {
-        "openTime": "2026-11-19T13:54:00Z",
-        "open": 159.9005,
-        "high": 159.9275,
-        "low": 159.9005,
-        "close": 159.9255,
-        "tickVolume": 34
-      },
-      {
-        "openTime": "2026-11-19T13:55:00Z",
-        "open": 159.9225,
-        "high": 159.9225,
-        "low": 159.9005,
-        "close": 159.9005,
-        "tickVolume": 30
-      },
-      {
-        "openTime": "2026-11-19T13:56:00Z",
-        "open": 159.9015,
-        "high": 159.9015,
-        "low": 159.8865,
-        "close": 159.8865,
-        "tickVolume": 27
-      },
-      {
-        "openTime": "2026-11-19T13:57:00Z",
-        "open": 159.8895,
-        "high": 159.9095,
-        "low": 159.8885,
-        "close": 159.9085,
-        "tickVolume": 31
-      },
-      {
-        "openTime": "2026-11-19T13:58:00Z",
-        "open": 159.9065,
-        "high": 159.9095,
-        "low": 159.8955,
-        "close": 159.8965,
-        "tickVolume": 30
-      },
-      {
-        "openTime": "2026-11-19T13:59:00Z",
-        "open": 159.8935,
-        "high": 159.8945,
-        "low": 159.8755,
-        "close": 159.8755,
-        "tickVolume": 39
-      },
-      {
-        "openTime": "2026-11-19T14:00:00Z",
-        "open": 159.8775,
-        "high": 159.8985,
-        "low": 159.8755,
-        "close": 159.8935,
-        "tickVolume": 48
-      },
-      {
-        "openTime": "2026-11-19T14:01:00Z",
-        "open": 159.8955,
-        "high": 159.9175,
-        "low": 159.8955,
-        "close": 159.9025,
-        "tickVolume": 49
-      },
-      {
-        "openTime": "2026-11-19T14:02:00Z",
-        "open": 159.9015,
-        "high": 159.9095,
-        "low": 159.9015,
-        "close": 159.9055,
-        "tickVolume": 39
-      },
-      {
-        "openTime": "2026-11-19T14:03:00Z",
-        "open": 159.9065,
-        "high": 159.9085,
-        "low": 159.9045,
-        "close": 159.9065,
-        "tickVolume": 18
-      },
-      {
-        "openTime": "2026-11-19T14:04:00Z",
-        "open": 159.9075,
-        "high": 159.9125,
-        "low": 159.9015,
-        "close": 159.9105,
-        "tickVolume": 37
-      },
-      {
-        "openTime": "2026-11-19T14:05:00Z",
-        "open": 159.9115,
-        "high": 159.9125,
-        "low": 159.8885,
-        "close": 159.8885,
-        "tickVolume": 41
-      },
-      {
-        "openTime": "2026-11-19T14:06:00Z",
-        "open": 159.8895,
-        "high": 159.9055,
-        "low": 159.8875,
-        "close": 159.9035,
-        "tickVolume": 49
-      },
-      {
-        "openTime": "2026-11-19T14:07:00Z",
-        "open": 159.9045,
-        "high": 159.9155,
-        "low": 159.9025,
-        "close": 159.9105,
-        "tickVolume": 30
-      },
-      {
-        "openTime": "2026-11-19T14:08:00Z",
-        "open": 159.9095,
-        "high": 159.9295,
-        "low": 159.9055,
-        "close": 159.9245,
-        "tickVolume": 35
-      },
-      {
-        "openTime": "2026-11-19T14:09:00Z",
-        "open": 159.9225,
-        "high": 159.9295,
-        "low": 159.9075,
-        "close": 159.9125,
-        "tickVolume": 46
-      },
-      {
-        "openTime": "2026-11-19T14:10:00Z",
-        "open": 159.9145,
-        "high": 159.9265,
-        "low": 159.9145,
-        "close": 159.9165,
-        "tickVolume": 36
-      },
-      {
-        "openTime": "2026-11-19T14:11:00Z",
-        "open": 159.9145,
-        "high": 159.9195,
-        "low": 159.9075,
-        "close": 159.9095,
-        "tickVolume": 36
-      },
-      {
-        "openTime": "2026-11-19T14:12:00Z",
-        "open": 159.9085,
-        "high": 159.9385,
-        "low": 159.9045,
-        "close": 159.9295,
-        "tickVolume": 52
-      },
-      {
-        "openTime": "2026-11-19T14:13:00Z",
-        "open": 159.9305,
-        "high": 159.9305,
-        "low": 159.9075,
-        "close": 159.9115,
-        "tickVolume": 48
-      },
-      {
-        "openTime": "2026-11-19T14:14:00Z",
-        "open": 159.9135,
-        "high": 159.9135,
-        "low": 159.9015,
-        "close": 159.9015,
-        "tickVolume": 48
-      },
-      {
-        "openTime": "2026-11-19T14:15:00Z",
-        "open": 159.9025,
-        "high": 159.9085,
-        "low": 159.8995,
-        "close": 159.9035,
-        "tickVolume": 35
-      },
-      {
-        "openTime": "2026-11-19T14:16:00Z",
-        "open": 159.9045,
-        "high": 159.9075,
-        "low": 159.8985,
-        "close": 159.9045,
-        "tickVolume": 40
-      },
-      {
-        "openTime": "2026-11-19T14:17:00Z",
-        "open": 159.9015,
-        "high": 159.9045,
-        "low": 159.8805,
-        "close": 159.8825,
-        "tickVolume": 29
-      },
-      {
-        "openTime": "2026-11-19T14:18:00Z",
-        "open": 159.8855,
-        "high": 159.8855,
-        "low": 159.8695,
-        "close": 159.8795,
-        "tickVolume": 30
-      },
-      {
-        "openTime": "2026-11-19T14:19:00Z",
-        "open": 159.8805,
-        "high": 159.8915,
-        "low": 159.8805,
-        "close": 159.8865,
-        "tickVolume": 37
-      },
-      {
-        "openTime": "2026-11-19T14:20:00Z",
-        "open": 159.8845,
-        "high": 159.8875,
-        "low": 159.8625,
-        "close": 159.8695,
-        "tickVolume": 46
-      },
-      {
-        "openTime": "2026-11-19T14:21:00Z",
-        "open": 159.8685,
-        "high": 159.8715,
-        "low": 159.8575,
-        "close": 159.8715,
-        "tickVolume": 45
-      },
-      {
-        "openTime": "2026-11-19T14:22:00Z",
-        "open": 159.8685,
-        "high": 159.8695,
-        "low": 159.8475,
-        "close": 159.8585,
-        "tickVolume": 49
-      },
-      {
-        "openTime": "2026-11-19T14:23:00Z",
-        "open": 159.8595,
-        "high": 159.8665,
-        "low": 159.8565,
-        "close": 159.8575,
-        "tickVolume": 36
-      },
-      {
-        "openTime": "2026-11-19T14:24:00Z",
-        "open": 159.8585,
-        "high": 159.8815,
-        "low": 159.8575,
-        "close": 159.8805,
-        "tickVolume": 42
-      },
-      {
-        "openTime": "2026-11-19T14:25:00Z",
-        "open": 159.8795,
-        "high": 159.8865,
-        "low": 159.8705,
-        "close": 159.8805,
-        "tickVolume": 46
-      },
-      {
-        "openTime": "2026-11-19T14:26:00Z",
-        "open": 159.8775,
-        "high": 159.8955,
-        "low": 159.8755,
-        "close": 159.8935,
-        "tickVolume": 44
-      },
-      {
-        "openTime": "2026-11-19T14:27:00Z",
-        "open": 159.8885,
-        "high": 159.8885,
-        "low": 159.8775,
-        "close": 159.8835,
-        "tickVolume": 53
-      },
-      {
-        "openTime": "2026-11-19T14:28:00Z",
-        "open": 159.8825,
-        "high": 159.8935,
-        "low": 159.8775,
-        "close": 159.8805,
-        "tickVolume": 35
-      },
-      {
-        "openTime": "2026-11-19T14:29:00Z",
-        "open": 159.8815,
-        "high": 159.8815,
-        "low": 159.8095,
-        "close": 159.8285,
-        "tickVolume": 70
-      },
-      {
-        "openTime": "2026-11-19T14:30:00Z",
-        "open": 159.8305,
-        "high": 159.8505,
-        "low": 159.8275,
-        "close": 159.8505,
-        "tickVolume": 83
-      },
-      {
-        "openTime": "2026-11-19T14:31:00Z",
-        "open": 159.8675,
-        "high": 159.8675,
-        "low": 159.8435,
-        "close": 159.8595,
-        "tickVolume": 73
-      },
-      {
-        "openTime": "2026-11-19T14:32:00Z",
-        "open": 159.8565,
-        "high": 159.8775,
-        "low": 159.8425,
-        "close": 159.8745,
-        "tickVolume": 71
-      },
-      {
-        "openTime": "2026-11-19T14:33:00Z",
-        "open": 159.8735,
-        "high": 159.8895,
-        "low": 159.8655,
-        "close": 159.8865,
-        "tickVolume": 66
-      },
-      {
-        "openTime": "2026-11-19T14:34:00Z",
-        "open": 159.8895,
-        "high": 159.8895,
-        "low": 159.8735,
-        "close": 159.8775,
-        "tickVolume": 55
-      },
-      {
-        "openTime": "2026-11-19T14:35:00Z",
-        "open": 159.8755,
-        "high": 159.8755,
-        "low": 159.8545,
-        "close": 159.8655,
-        "tickVolume": 65
-      },
-      {
-        "openTime": "2026-11-19T14:36:00Z",
-        "open": 159.8665,
-        "high": 159.8755,
-        "low": 159.8575,
-        "close": 159.8655,
-        "tickVolume": 62
-      },
-      {
-        "openTime": "2026-11-19T14:37:00Z",
-        "open": 159.8695,
-        "high": 159.8855,
-        "low": 159.8695,
-        "close": 159.8805,
-        "tickVolume": 59
-      },
-      {
-        "openTime": "2026-11-19T14:38:00Z",
-        "open": 159.8825,
-        "high": 159.8965,
-        "low": 159.8795,
-        "close": 159.8875,
-        "tickVolume": 54
-      },
-      {
-        "openTime": "2026-11-19T14:39:00Z",
-        "open": 159.8865,
-        "high": 159.8865,
-        "low": 159.8565,
-        "close": 159.8565,
-        "tickVolume": 57
-      },
-      {
-        "openTime": "2026-11-19T14:40:00Z",
-        "open": 159.8535,
-        "high": 159.8535,
-        "low": 159.7955,
-        "close": 159.8285,
-        "tickVolume": 113
-      },
-      {
-        "openTime": "2026-11-19T14:41:00Z",
-        "open": 159.8325,
-        "high": 159.8655,
-        "low": 159.8315,
-        "close": 159.8625,
-        "tickVolume": 86
-      },
-      {
-        "openTime": "2026-11-19T14:42:00Z",
-        "open": 159.8645,
-        "high": 159.8695,
-        "low": 159.8435,
-        "close": 159.8495,
-        "tickVolume": 74
-      },
-      {
-        "openTime": "2026-11-19T14:43:00Z",
-        "open": 159.8515,
-        "high": 159.8615,
-        "low": 159.8465,
-        "close": 159.8565,
-        "tickVolume": 62
-      },
-      {
-        "openTime": "2026-11-19T14:44:00Z",
-        "open": 159.8545,
-        "high": 159.8765,
-        "low": 159.8525,
-        "close": 159.8735,
-        "tickVolume": 52
-      },
-      {
-        "openTime": "2026-11-19T14:45:00Z",
-        "open": 159.8715,
-        "high": 159.8895,
-        "low": 159.8665,
-        "close": 159.8755,
-        "tickVolume": 66
-      },
-      {
-        "openTime": "2026-11-19T14:46:00Z",
-        "open": 159.8745,
-        "high": 159.8915,
-        "low": 159.8665,
-        "close": 159.8815,
-        "tickVolume": 63
-      },
-      {
-        "openTime": "2026-11-19T14:47:00Z",
-        "open": 159.8795,
-        "high": 159.9095,
-        "low": 159.8795,
-        "close": 159.9065,
-        "tickVolume": 50
-      },
-      {
-        "openTime": "2026-11-19T14:48:00Z",
-        "open": 159.9085,
-        "high": 159.9135,
-        "low": 159.8935,
-        "close": 159.9085,
-        "tickVolume": 53
-      },
-      {
-        "openTime": "2026-11-19T14:49:00Z",
-        "open": 159.9065,
-        "high": 159.9345,
-        "low": 159.9055,
-        "close": 159.9275,
-        "tickVolume": 46
-      },
-      {
-        "openTime": "2026-11-19T14:50:00Z",
-        "open": 159.9285,
-        "high": 159.9325,
-        "low": 159.9155,
-        "close": 159.9275,
-        "tickVolume": 68
-      },
-      {
-        "openTime": "2026-11-19T14:51:00Z",
-        "open": 159.9285,
-        "high": 159.9405,
-        "low": 159.9255,
-        "close": 159.9385,
-        "tickVolume": 61
-      },
-      {
-        "openTime": "2026-11-19T14:52:00Z",
-        "open": 159.9395,
-        "high": 159.9465,
-        "low": 159.9155,
-        "close": 159.9245,
-        "tickVolume": 57
-      },
-      {
-        "openTime": "2026-11-19T14:53:00Z",
-        "open": 159.9275,
-        "high": 159.9315,
-        "low": 159.9145,
-        "close": 159.9205,
-        "tickVolume": 46
-      },
-      {
-        "openTime": "2026-11-19T14:54:00Z",
-        "open": 159.9175,
-        "high": 159.9185,
-        "low": 159.8905,
-        "close": 159.9035,
-        "tickVolume": 66
-      },
-      {
-        "openTime": "2026-11-19T14:55:00Z",
-        "open": 159.9075,
-        "high": 159.9085,
-        "low": 159.8875,
-        "close": 159.8955,
-        "tickVolume": 49
-      },
-      {
-        "openTime": "2026-11-19T14:56:00Z",
-        "open": 159.8945,
-        "high": 159.8955,
-        "low": 159.8785,
-        "close": 159.8805,
-        "tickVolume": 51
-      },
-      {
-        "openTime": "2026-11-19T14:57:00Z",
-        "open": 159.8785,
-        "high": 159.9105,
-        "low": 159.8645,
-        "close": 159.9095,
-        "tickVolume": 54
-      },
-      {
-        "openTime": "2026-11-19T14:58:00Z",
-        "open": 159.9085,
-        "high": 159.9085,
-        "low": 159.8815,
-        "close": 159.8935,
-        "tickVolume": 52
-      },
-      {
-        "openTime": "2026-11-19T14:59:00Z",
-        "open": 159.8955,
-        "high": 159.9025,
-        "low": 159.8935,
-        "close": 159.8945,
-        "tickVolume": 37
-      },
-      {
-        "openTime": "2026-11-19T15:00:00Z",
-        "open": 159.8965,
-        "high": 159.9095,
-        "low": 159.8695,
-        "close": 159.9075,
-        "tickVolume": 47
-      },
-      {
-        "openTime": "2026-11-19T15:01:00Z",
-        "open": 159.9085,
-        "high": 159.9235,
-        "low": 159.9055,
-        "close": 159.9125,
-        "tickVolume": 25
-      },
-      {
-        "openTime": "2026-11-19T15:02:00Z",
-        "open": 159.9115,
-        "high": 159.9235,
-        "low": 159.9035,
-        "close": 159.9075,
-        "tickVolume": 63
-      },
-      {
-        "openTime": "2026-11-19T15:03:00Z",
-        "open": 159.9085,
-        "high": 159.9315,
-        "low": 159.9065,
-        "close": 159.9205,
-        "tickVolume": 58
-      },
-      {
-        "openTime": "2026-11-19T17:30:00Z",
-        "open": 159.7745,
-        "high": 159.8025,
-        "low": 159.7615,
-        "close": 159.8025,
-        "tickVolume": 73
-      },
-      {
-        "openTime": "2026-11-19T17:31:00Z",
-        "open": 159.8015,
-        "high": 159.8185,
-        "low": 159.7945,
-        "close": 159.8185,
-        "tickVolume": 64
-      },
-      {
-        "openTime": "2026-11-19T17:32:00Z",
-        "open": 159.8155,
-        "high": 159.8215,
-        "low": 159.7955,
-        "close": 159.8125,
-        "tickVolume": 67
-      },
-      {
-        "openTime": "2026-11-19T17:33:00Z",
-        "open": 159.8105,
-        "high": 159.8215,
-        "low": 159.8035,
-        "close": 159.8035,
-        "tickVolume": 63
-      },
-      {
-        "openTime": "2026-11-19T17:34:00Z",
-        "open": 159.8065,
-        "high": 159.8385,
-        "low": 159.8065,
-        "close": 159.8385,
-        "tickVolume": 48
-      },
-      {
-        "openTime": "2026-11-19T17:35:00Z",
-        "open": 159.8355,
-        "high": 159.8385,
-        "low": 159.8195,
-        "close": 159.8365,
-        "tickVolume": 54
-      },
-      {
-        "openTime": "2026-11-19T17:36:00Z",
-        "open": 159.8355,
-        "high": 159.8405,
-        "low": 159.8275,
-        "close": 159.8365,
-        "tickVolume": 48
-      },
-      {
-        "openTime": "2026-11-19T17:37:00Z",
-        "open": 159.8355,
-        "high": 159.8445,
-        "low": 159.8265,
-        "close": 159.8265,
-        "tickVolume": 53
-      },
-      {
-        "openTime": "2026-11-19T17:38:00Z",
-        "open": 159.8275,
-        "high": 159.8325,
-        "low": 159.8145,
-        "close": 159.8215,
-        "tickVolume": 48
-      },
-      {
-        "openTime": "2026-11-19T17:39:00Z",
-        "open": 159.8205,
-        "high": 159.8255,
-        "low": 159.8065,
-        "close": 159.8115,
-        "tickVolume": 51
-      },
-      {
-        "openTime": "2026-11-19T17:40:00Z",
-        "open": 159.8085,
-        "high": 159.8165,
-        "low": 159.7955,
-        "close": 159.8055,
-        "tickVolume": 54
-      },
-      {
-        "openTime": "2026-11-19T17:41:00Z",
-        "open": 159.8035,
-        "high": 159.8135,
-        "low": 159.8025,
-        "close": 159.8035,
-        "tickVolume": 50
-      },
-      {
-        "openTime": "2026-11-19T17:42:00Z",
-        "open": 159.8025,
-        "high": 159.8145,
-        "low": 159.7985,
-        "close": 159.8045,
-        "tickVolume": 51
-      },
-      {
-        "openTime": "2026-11-19T17:43:00Z",
-        "open": 159.8055,
-        "high": 159.8055,
-        "low": 159.7885,
-        "close": 159.7905,
-        "tickVolume": 54
-      },
-      {
-        "openTime": "2026-11-19T17:44:00Z",
-        "open": 159.7925,
-        "high": 159.7995,
-        "low": 159.7785,
-        "close": 159.7785,
-        "tickVolume": 48
-      },
-      {
-        "openTime": "2026-11-19T17:45:00Z",
-        "open": 159.7775,
-        "high": 159.7925,
-        "low": 159.7655,
-        "close": 159.7865,
-        "tickVolume": 62
-      },
-      {
-        "openTime": "2026-11-19T17:46:00Z",
-        "open": 159.7895,
-        "high": 159.8155,
-        "low": 159.7895,
-        "close": 159.8065,
-        "tickVolume": 51
-      },
-      {
-        "openTime": "2026-11-19T17:47:00Z",
-        "open": 159.8085,
-        "high": 159.8115,
-        "low": 159.7985,
-        "close": 159.8095,
-        "tickVolume": 55
-      },
-      {
-        "openTime": "2026-11-19T17:48:00Z",
-        "open": 159.8075,
-        "high": 159.8105,
-        "low": 159.8005,
-        "close": 159.8045,
-        "tickVolume": 44
-      },
-      {
-        "openTime": "2026-11-19T17:49:00Z",
-        "open": 159.8055,
-        "high": 159.8055,
-        "low": 159.7895,
-        "close": 159.7955,
-        "tickVolume": 43
-      },
-      {
-        "openTime": "2026-11-19T17:50:00Z",
-        "open": 159.7985,
-        "high": 159.8035,
-        "low": 159.7885,
-        "close": 159.8025,
-        "tickVolume": 48
-      },
-      {
-        "openTime": "2026-11-19T17:51:00Z",
-        "open": 159.8005,
-        "high": 159.8105,
-        "low": 159.7935,
-        "close": 159.8055,
-        "tickVolume": 45
-      },
-      {
-        "openTime": "2026-11-19T17:52:00Z",
-        "open": 159.8035,
-        "high": 159.8355,
-        "low": 159.8035,
-        "close": 159.8275,
-        "tickVolume": 47
-      },
-      {
-        "openTime": "2026-11-19T17:53:00Z",
-        "open": 159.8265,
-        "high": 159.8285,
-        "low": 159.8135,
-        "close": 159.8245,
-        "tickVolume": 47
-      },
-      {
-        "openTime": "2026-11-19T17:54:00Z",
-        "open": 159.8215,
-        "high": 159.8315,
-        "low": 159.8175,
-        "close": 159.8255,
-        "tickVolume": 44
-      },
-      {
-        "openTime": "2026-11-19T17:55:00Z",
-        "open": 159.8235,
-        "high": 159.8335,
-        "low": 159.8185,
-        "close": 159.8335,
-        "tickVolume": 37
-      },
-      {
-        "openTime": "2026-11-19T17:56:00Z",
-        "open": 159.8365,
-        "high": 159.8405,
-        "low": 159.8285,
-        "close": 159.8345,
-        "tickVolume": 51
-      },
-      {
-        "openTime": "2026-11-19T17:57:00Z",
-        "open": 159.8315,
-        "high": 159.8375,
-        "low": 159.8265,
-        "close": 159.8295,
-        "tickVolume": 45
-      },
-      {
-        "openTime": "2026-11-19T17:58:00Z",
-        "open": 159.8305,
-        "high": 159.8415,
-        "low": 159.8305,
-        "close": 159.8375,
-        "tickVolume": 28
-      },
-      {
-        "openTime": "2026-11-19T17:59:00Z",
-        "open": 159.8365,
-        "high": 159.8445,
-        "low": 159.8335,
-        "close": 159.8385,
-        "tickVolume": 29
-      },
-      {
-        "openTime": "2026-11-19T18:00:00Z",
-        "open": 159.8415,
-        "high": 159.8415,
-        "low": 159.8115,
-        "close": 159.8115,
-        "tickVolume": 51
-      },
-      {
-        "openTime": "2026-11-19T18:01:00Z",
-        "open": 159.8125,
-        "high": 159.8265,
-        "low": 159.8075,
-        "close": 159.8145,
-        "tickVolume": 46
-      },
-      {
-        "openTime": "2026-11-19T18:02:00Z",
-        "open": 159.8135,
-        "high": 159.8135,
-        "low": 159.7945,
-        "close": 159.8095,
-        "tickVolume": 47
-      },
-      {
-        "openTime": "2026-11-19T18:03:00Z",
-        "open": 159.8125,
-        "high": 159.8155,
-        "low": 159.7995,
-        "close": 159.8015,
-        "tickVolume": 33
-      },
-      {
-        "openTime": "2026-11-19T18:04:00Z",
-        "open": 159.8005,
-        "high": 159.8035,
-        "low": 159.7765,
-        "close": 159.7795,
-        "tickVolume": 45
-      },
-      {
-        "openTime": "2026-11-19T18:05:00Z",
-        "open": 159.7805,
-        "high": 159.7885,
-        "low": 159.7615,
-        "close": 159.7665,
-        "tickVolume": 50
-      },
-      {
-        "openTime": "2026-11-19T18:06:00Z",
-        "open": 159.7655,
-        "high": 159.7825,
-        "low": 159.7555,
-        "close": 159.7735,
-        "tickVolume": 53
-      },
-      {
-        "openTime": "2026-11-19T18:07:00Z",
-        "open": 159.7765,
-        "high": 159.7775,
-        "low": 159.7645,
-        "close": 159.7675,
-        "tickVolume": 51
-      },
-      {
-        "openTime": "2026-11-19T18:08:00Z",
-        "open": 159.7655,
-        "high": 159.7805,
-        "low": 159.7645,
-        "close": 159.7695,
-        "tickVolume": 38
-      },
-      {
-        "openTime": "2026-11-19T18:09:00Z",
-        "open": 159.7705,
-        "high": 159.7895,
-        "low": 159.7685,
-        "close": 159.7825,
-        "tickVolume": 36
-      },
-      {
-        "openTime": "2026-11-19T18:10:00Z",
-        "open": 159.7815,
-        "high": 159.7935,
-        "low": 159.7515,
-        "close": 159.7515,
-        "tickVolume": 55
-      },
-      {
-        "openTime": "2026-11-19T18:11:00Z",
-        "open": 159.7545,
-        "high": 159.7575,
-        "low": 159.7275,
-        "close": 159.7305,
-        "tickVolume": 50
-      },
-      {
-        "openTime": "2026-11-19T18:12:00Z",
-        "open": 159.7295,
-        "high": 159.7425,
-        "low": 159.7295,
-        "close": 159.7395,
-        "tickVolume": 49
-      },
-      {
-        "openTime": "2026-11-19T18:13:00Z",
-        "open": 159.7405,
-        "high": 159.7445,
-        "low": 159.7275,
-        "close": 159.7435,
-        "tickVolume": 48
-      },
-      {
-        "openTime": "2026-11-19T18:14:00Z",
-        "open": 159.7445,
-        "high": 159.7525,
-        "low": 159.7365,
-        "close": 159.7445,
-        "tickVolume": 40
-      },
-      {
-        "openTime": "2026-11-19T18:15:00Z",
-        "open": 159.7425,
-        "high": 159.7545,
-        "low": 159.7385,
-        "close": 159.7545,
-        "tickVolume": 48
-      },
-      {
-        "openTime": "2026-11-19T18:16:00Z",
-        "open": 159.7535,
-        "high": 159.7635,
-        "low": 159.7525,
-        "close": 159.7595,
-        "tickVolume": 47
-      },
-      {
-        "openTime": "2026-11-19T18:17:00Z",
-        "open": 159.7615,
-        "high": 159.7715,
-        "low": 159.7345,
-        "close": 159.7345,
-        "tickVolume": 52
-      },
-      {
-        "openTime": "2026-11-19T18:18:00Z",
-        "open": 159.7365,
-        "high": 159.7405,
-        "low": 159.7185,
-        "close": 159.7185,
-        "tickVolume": 54
-      },
-      {
-        "openTime": "2026-11-19T18:19:00Z",
-        "open": 159.7215,
-        "high": 159.7545,
-        "low": 159.7215,
-        "close": 159.7545,
-        "tickVolume": 51
-      },
-      {
-        "openTime": "2026-11-19T18:20:00Z",
-        "open": 159.7555,
-        "high": 159.7735,
-        "low": 159.7485,
-        "close": 159.7705,
-        "tickVolume": 52
-      },
-      {
-        "openTime": "2026-11-19T18:21:00Z",
-        "open": 159.7695,
-        "high": 159.7815,
-        "low": 159.7645,
-        "close": 159.7695,
-        "tickVolume": 58
-      },
-      {
-        "openTime": "2026-11-19T18:22:00Z",
-        "open": 159.7685,
-        "high": 159.7835,
-        "low": 159.7655,
-        "close": 159.7805,
-        "tickVolume": 31
-      },
-      {
-        "openTime": "2026-11-19T18:23:00Z",
-        "open": 159.7775,
-        "high": 159.7805,
-        "low": 159.7615,
-        "close": 159.7705,
-        "tickVolume": 32
-      },
-      {
-        "openTime": "2026-11-19T18:24:00Z",
-        "open": 159.7725,
-        "high": 159.7895,
-        "low": 159.7695,
-        "close": 159.7835,
-        "tickVolume": 48
-      },
-      {
-        "openTime": "2026-11-19T18:25:00Z",
-        "open": 159.7825,
-        "high": 159.7935,
-        "low": 159.7755,
-        "close": 159.7825,
-        "tickVolume": 46
-      },
-      {
-        "openTime": "2026-11-19T18:26:00Z",
-        "open": 159.7815,
-        "high": 159.8055,
-        "low": 159.7765,
-        "close": 159.8035,
-        "tickVolume": 44
-      },
-      {
-        "openTime": "2026-11-19T18:27:00Z",
-        "open": 159.8025,
-        "high": 159.8115,
-        "low": 159.7995,
-        "close": 159.8065,
-        "tickVolume": 50
-      },
-      {
-        "openTime": "2026-11-19T18:28:00Z",
-        "open": 159.8055,
-        "high": 159.8215,
-        "low": 159.7995,
-        "close": 159.8195,
-        "tickVolume": 47
-      },
-      {
-        "openTime": "2026-11-19T18:29:00Z",
-        "open": 159.8185,
-        "high": 159.8305,
-        "low": 159.8185,
-        "close": 159.8225,
-        "tickVolume": 40
-      },
-      {
-        "openTime": "2026-11-19T18:30:00Z",
-        "open": 159.8215,
-        "high": 159.8285,
-        "low": 159.8025,
-        "close": 159.8045,
-        "tickVolume": 52
-      },
-      {
-        "openTime": "2026-11-19T18:31:00Z",
-        "open": 159.8065,
-        "high": 159.8095,
-        "low": 159.7935,
-        "close": 159.7975,
-        "tickVolume": 43
-      },
-      {
-        "openTime": "2026-11-19T18:32:00Z",
-        "open": 159.7955,
-        "high": 159.8015,
-        "low": 159.7885,
-        "close": 159.7945,
-        "tickVolume": 47
-      },
-      {
-        "openTime": "2026-11-19T18:33:00Z",
-        "open": 159.7935,
-        "high": 159.8095,
-        "low": 159.7915,
-        "close": 159.8095,
-        "tickVolume": 27
-      },
-      {
-        "openTime": "2026-11-19T18:34:00Z",
-        "open": 159.8065,
-        "high": 159.8175,
-        "low": 159.8025,
-        "close": 159.8065,
-        "tickVolume": 39
-      },
-      {
-        "openTime": "2026-11-19T18:35:00Z",
-        "open": 159.8055,
-        "high": 159.8065,
-        "low": 159.7925,
-        "close": 159.8065,
-        "tickVolume": 37
-      },
-      {
-        "openTime": "2026-11-19T18:36:00Z",
-        "open": 159.8085,
-        "high": 159.8185,
-        "low": 159.8085,
-        "close": 159.8145,
-        "tickVolume": 39
-      },
-      {
-        "openTime": "2026-11-19T18:37:00Z",
-        "open": 159.8155,
-        "high": 159.8155,
-        "low": 159.7945,
-        "close": 159.7975,
-        "tickVolume": 51
-      },
-      {
-        "openTime": "2026-11-19T18:38:00Z",
-        "open": 159.8005,
-        "high": 159.8025,
-        "low": 159.7905,
-        "close": 159.7905,
-        "tickVolume": 53
-      },
-      {
-        "openTime": "2026-11-19T18:39:00Z",
-        "open": 159.7925,
-        "high": 159.7995,
-        "low": 159.7865,
-        "close": 159.7865,
-        "tickVolume": 41
-      },
-      {
-        "openTime": "2026-11-19T18:40:00Z",
-        "open": 159.7875,
-        "high": 159.7905,
-        "low": 159.7765,
-        "close": 159.7795,
-        "tickVolume": 37
-      },
-      {
-        "openTime": "2026-11-19T18:41:00Z",
-        "open": 159.7785,
-        "high": 159.7875,
-        "low": 159.7765,
-        "close": 159.7815,
-        "tickVolume": 41
-      },
-      {
-        "openTime": "2026-11-19T18:42:00Z",
-        "open": 159.7785,
-        "high": 159.7825,
-        "low": 159.7625,
-        "close": 159.7665,
-        "tickVolume": 37
-      },
-      {
-        "openTime": "2026-11-19T18:43:00Z",
-        "open": 159.7675,
-        "high": 159.7695,
-        "low": 159.7625,
-        "close": 159.7675,
-        "tickVolume": 37
-      },
-      {
-        "openTime": "2026-11-19T18:44:00Z",
-        "open": 159.7655,
-        "high": 159.7695,
-        "low": 159.7625,
-        "close": 159.7665,
-        "tickVolume": 33
-      },
-      {
-        "openTime": "2026-11-19T18:45:00Z",
-        "open": 159.7685,
-        "high": 159.7775,
-        "low": 159.7645,
-        "close": 159.7655,
-        "tickVolume": 44
-      },
-      {
-        "openTime": "2026-11-19T18:46:00Z",
-        "open": 159.7625,
-        "high": 159.7705,
-        "low": 159.7605,
-        "close": 159.7685,
-        "tickVolume": 37
-      },
-      {
-        "openTime": "2026-11-19T18:47:00Z",
-        "open": 159.7695,
-        "high": 159.7715,
-        "low": 159.7645,
-        "close": 159.7665,
-        "tickVolume": 22
-      },
-      {
-        "openTime": "2026-11-19T18:48:00Z",
-        "open": 159.7695,
-        "high": 159.7715,
-        "low": 159.7505,
-        "close": 159.7515,
-        "tickVolume": 43
-      },
-      {
-        "openTime": "2026-11-19T18:49:00Z",
-        "open": 159.7535,
-        "high": 159.7585,
-        "low": 159.7515,
-        "close": 159.7565,
-        "tickVolume": 24
-      },
-      {
-        "openTime": "2026-11-19T18:50:00Z",
-        "open": 159.7575,
-        "high": 159.7665,
-        "low": 159.7475,
-        "close": 159.7525,
-        "tickVolume": 42
-      },
-      {
-        "openTime": "2026-11-19T18:51:00Z",
-        "open": 159.7495,
-        "high": 159.7535,
-        "low": 159.7435,
-        "close": 159.7525,
-        "tickVolume": 41
-      },
-      {
-        "openTime": "2026-11-19T18:52:00Z",
-        "open": 159.7565,
-        "high": 159.7665,
-        "low": 159.7505,
-        "close": 159.7665,
-        "tickVolume": 38
-      },
-      {
-        "openTime": "2026-11-19T18:53:00Z",
-        "open": 159.7655,
-        "high": 159.7655,
-        "low": 159.7545,
-        "close": 159.7565,
-        "tickVolume": 49
-      },
-      {
-        "openTime": "2026-11-19T18:54:00Z",
-        "open": 159.7595,
-        "high": 159.7785,
-        "low": 159.7575,
-        "close": 159.7625,
-        "tickVolume": 45
-      },
-      {
-        "openTime": "2026-11-19T18:55:00Z",
-        "open": 159.7605,
-        "high": 159.7645,
-        "low": 159.7405,
-        "close": 159.7415,
-        "tickVolume": 47
-      },
-      {
-        "openTime": "2026-11-19T18:56:00Z",
-        "open": 159.7425,
-        "high": 159.7735,
-        "low": 159.7425,
-        "close": 159.7665,
-        "tickVolume": 47
-      },
-      {
-        "openTime": "2026-11-19T18:57:00Z",
-        "open": 159.7635,
-        "high": 159.7745,
-        "low": 159.7625,
-        "close": 159.7695,
-        "tickVolume": 33
-      },
-      {
-        "openTime": "2026-11-19T18:58:00Z",
-        "open": 159.7675,
-        "high": 159.7695,
-        "low": 159.7625,
-        "close": 159.7635,
-        "tickVolume": 18
-      },
-      {
-        "openTime": "2026-11-19T18:59:00Z",
-        "open": 159.7665,
-        "high": 159.7705,
-        "low": 159.7555,
-        "close": 159.7615,
-        "tickVolume": 36
-      },
-      {
-        "openTime": "2026-11-19T19:00:00Z",
-        "open": 159.7645,
-        "high": 159.7715,
-        "low": 159.7555,
-        "close": 159.7565,
-        "tickVolume": 45
-      },
-      {
-        "openTime": "2026-11-19T19:01:00Z",
-        "open": 159.7575,
-        "high": 159.7635,
-        "low": 159.7545,
-        "close": 159.7545,
-        "tickVolume": 41
-      },
-      {
-        "openTime": "2026-11-19T19:02:00Z",
-        "open": 159.7515,
-        "high": 159.7695,
-        "low": 159.7505,
-        "close": 159.7625,
-        "tickVolume": 30
-      },
-      {
-        "openTime": "2026-11-19T19:03:00Z",
-        "open": 159.7615,
-        "high": 159.7735,
-        "low": 159.7545,
-        "close": 159.7625,
-        "tickVolume": 34
-      },
-      {
-        "openTime": "2026-11-19T19:04:00Z",
-        "open": 159.7645,
-        "high": 159.7685,
-        "low": 159.7545,
-        "close": 159.7685,
-        "tickVolume": 22
-      },
-      {
-        "openTime": "2026-11-19T19:05:00Z",
-        "open": 159.7645,
-        "high": 159.7665,
-        "low": 159.7495,
-        "close": 159.7565,
-        "tickVolume": 43
-      },
-      {
-        "openTime": "2026-11-19T19:06:00Z",
-        "open": 159.7555,
-        "high": 159.7705,
-        "low": 159.7555,
-        "close": 159.7645,
-        "tickVolume": 39
-      },
-      {
-        "openTime": "2026-11-19T19:07:00Z",
-        "open": 159.7625,
-        "high": 159.7685,
-        "low": 159.7485,
-        "close": 159.7485,
-        "tickVolume": 45
-      },
-      {
-        "openTime": "2026-11-19T19:08:00Z",
-        "open": 159.7495,
-        "high": 159.7705,
-        "low": 159.7495,
-        "close": 159.7665,
-        "tickVolume": 34
-      },
-      {
-        "openTime": "2026-11-19T19:09:00Z",
-        "open": 159.7645,
-        "high": 159.7735,
-        "low": 159.7645,
-        "close": 159.7715,
-        "tickVolume": 34
-      },
-      {
-        "openTime": "2026-11-19T19:10:00Z",
-        "open": 159.7725,
-        "high": 159.7725,
-        "low": 159.7635,
-        "close": 159.7635,
-        "tickVolume": 32
-      },
-      {
-        "openTime": "2026-11-19T19:11:00Z",
-        "open": 159.7655,
-        "high": 159.7685,
-        "low": 159.7585,
-        "close": 159.7655,
-        "tickVolume": 25
-      },
-      {
-        "openTime": "2026-11-19T19:12:00Z",
-        "open": 159.7645,
-        "high": 159.7705,
-        "low": 159.7525,
-        "close": 159.7685,
-        "tickVolume": 40
-      },
-      {
-        "openTime": "2026-11-19T19:13:00Z",
-        "open": 159.7705,
-        "high": 159.7745,
-        "low": 159.7595,
-        "close": 159.7635,
-        "tickVolume": 34
-      },
-      {
-        "openTime": "2026-11-19T19:14:00Z",
-        "open": 159.7615,
-        "high": 159.7635,
-        "low": 159.7535,
-        "close": 159.7565,
-        "tickVolume": 46
-      },
-      {
-        "openTime": "2026-11-19T19:15:00Z",
-        "open": 159.7555,
-        "high": 159.7605,
-        "low": 159.7495,
-        "close": 159.7535,
-        "tickVolume": 31
-      },
-      {
-        "openTime": "2026-11-19T19:16:00Z",
-        "open": 159.7565,
-        "high": 159.7675,
-        "low": 159.7375,
-        "close": 159.7375,
-        "tickVolume": 51
-      },
-      {
-        "openTime": "2026-11-19T19:17:00Z",
-        "open": 159.7385,
-        "high": 159.7405,
-        "low": 159.7285,
-        "close": 159.7365,
-        "tickVolume": 39
-      },
-      {
-        "openTime": "2026-11-19T19:18:00Z",
-        "open": 159.7395,
-        "high": 159.7435,
-        "low": 159.7295,
-        "close": 159.7315,
-        "tickVolume": 32
-      },
-      {
-        "openTime": "2026-11-19T19:19:00Z",
-        "open": 159.7305,
-        "high": 159.7365,
-        "low": 159.7245,
-        "close": 159.7265,
-        "tickVolume": 37
-      },
-      {
-        "openTime": "2026-11-19T19:20:00Z",
-        "open": 159.7285,
-        "high": 159.7495,
-        "low": 159.7285,
-        "close": 159.7455,
-        "tickVolume": 38
-      },
-      {
-        "openTime": "2026-11-19T19:21:00Z",
-        "open": 159.7475,
-        "high": 159.7615,
-        "low": 159.7405,
-        "close": 159.7615,
-        "tickVolume": 33
-      },
-      {
-        "openTime": "2026-11-19T19:22:00Z",
-        "open": 159.7605,
-        "high": 159.7685,
-        "low": 159.7555,
-        "close": 159.7645,
-        "tickVolume": 34
-      },
-      {
-        "openTime": "2026-11-19T19:23:00Z",
-        "open": 159.7665,
-        "high": 159.7685,
-        "low": 159.7605,
-        "close": 159.7635,
-        "tickVolume": 32
-      },
-      {
-        "openTime": "2026-11-19T19:24:00Z",
-        "open": 159.7625,
-        "high": 159.7645,
-        "low": 159.7485,
-        "close": 159.7525,
-        "tickVolume": 34
-      },
-      {
-        "openTime": "2026-11-19T19:25:00Z",
-        "open": 159.7545,
-        "high": 159.7685,
-        "low": 159.7545,
-        "close": 159.7655,
-        "tickVolume": 32
-      },
-      {
-        "openTime": "2026-11-19T19:26:00Z",
-        "open": 159.7675,
-        "high": 159.7805,
-        "low": 159.7655,
-        "close": 159.7765,
-        "tickVolume": 30
-      },
-      {
-        "openTime": "2026-11-19T19:27:00Z",
-        "open": 159.7745,
-        "high": 159.7885,
-        "low": 159.7745,
-        "close": 159.7865,
-        "tickVolume": 22
-      },
-      {
-        "openTime": "2026-11-19T19:28:00Z",
-        "open": 159.7825,
-        "high": 159.7825,
-        "low": 159.7545,
-        "close": 159.7575,
-        "tickVolume": 51
-      },
-      {
-        "openTime": "2026-11-19T19:29:00Z",
-        "open": 159.7595,
-        "high": 159.7655,
-        "low": 159.7475,
-        "close": 159.7485,
-        "tickVolume": 34
-      },
-      {
-        "openTime": "2026-11-19T19:30:00Z",
-        "open": 159.7475,
-        "high": 159.7555,
-        "low": 159.7375,
-        "close": 159.7375,
-        "tickVolume": 54
-      },
-      {
-        "openTime": "2026-11-19T19:31:00Z",
-        "open": 159.7365,
-        "high": 159.7385,
-        "low": 159.7255,
-        "close": 159.7365,
-        "tickVolume": 45
-      },
-      {
-        "openTime": "2026-11-19T19:32:00Z",
-        "open": 159.7335,
-        "high": 159.7625,
-        "low": 159.7335,
-        "close": 159.7515,
-        "tickVolume": 51
-      },
-      {
-        "openTime": "2026-11-19T19:33:00Z",
-        "open": 159.7505,
-        "high": 159.7565,
-        "low": 159.7495,
-        "close": 159.7525,
-        "tickVolume": 32
-      },
-      {
-        "openTime": "2026-11-19T19:34:00Z",
-        "open": 159.7515,
-        "high": 159.7525,
-        "low": 159.7425,
-        "close": 159.7515,
-        "tickVolume": 39
-      },
-      {
-        "openTime": "2026-11-19T19:35:00Z",
-        "open": 159.7495,
-        "high": 159.7585,
-        "low": 159.7415,
-        "close": 159.7505,
-        "tickVolume": 31
-      },
-      {
-        "openTime": "2026-11-19T19:36:00Z",
-        "open": 159.7515,
-        "high": 159.7615,
-        "low": 159.7495,
-        "close": 159.7525,
-        "tickVolume": 40
-      },
-      {
-        "openTime": "2026-11-19T19:37:00Z",
-        "open": 159.7545,
-        "high": 159.7545,
-        "low": 159.7355,
-        "close": 159.7385,
-        "tickVolume": 33
-      },
-      {
-        "openTime": "2026-11-19T19:38:00Z",
-        "open": 159.7355,
-        "high": 159.7405,
-        "low": 159.7305,
-        "close": 159.7345,
-        "tickVolume": 26
-      },
-      {
-        "openTime": "2026-11-19T19:39:00Z",
-        "open": 159.7355,
-        "high": 159.7385,
-        "low": 159.7245,
-        "close": 159.7365,
-        "tickVolume": 36
-      },
-      {
-        "openTime": "2026-11-19T19:40:00Z",
-        "open": 159.7385,
-        "high": 159.7685,
-        "low": 159.7385,
-        "close": 159.7675,
-        "tickVolume": 40
-      },
-      {
-        "openTime": "2026-11-19T19:41:00Z",
-        "open": 159.7655,
-        "high": 159.7685,
-        "low": 159.7505,
-        "close": 159.7615,
-        "tickVolume": 33
-      },
-      {
-        "openTime": "2026-11-19T19:42:00Z",
-        "open": 159.7625,
-        "high": 159.7665,
-        "low": 159.7555,
-        "close": 159.7625,
-        "tickVolume": 32
-      },
-      {
-        "openTime": "2026-11-19T19:43:00Z",
-        "open": 159.7635,
-        "high": 159.7795,
-        "low": 159.7635,
-        "close": 159.7795,
-        "tickVolume": 32
-      },
-      {
-        "openTime": "2026-11-19T19:44:00Z",
-        "open": 159.7785,
-        "high": 159.7815,
-        "low": 159.7745,
-        "close": 159.7765,
-        "tickVolume": 25
-      },
-      {
-        "openTime": "2026-11-19T19:45:00Z",
-        "open": 159.7775,
-        "high": 159.7805,
-        "low": 159.7665,
-        "close": 159.7805,
-        "tickVolume": 26
-      },
-      {
-        "openTime": "2026-11-19T19:46:00Z",
-        "open": 159.7795,
-        "high": 159.7875,
-        "low": 159.7785,
-        "close": 159.7785,
-        "tickVolume": 27
-      },
-      {
-        "openTime": "2026-11-19T19:47:00Z",
-        "open": 159.7705,
-        "high": 159.7815,
-        "low": 159.7705,
-        "close": 159.7805,
-        "tickVolume": 35
-      },
-      {
-        "openTime": "2026-11-19T19:48:00Z",
-        "open": 159.7795,
-        "high": 159.7815,
-        "low": 159.7685,
-        "close": 159.7795,
-        "tickVolume": 36
-      },
-      {
-        "openTime": "2026-11-19T19:49:00Z",
-        "open": 159.7785,
-        "high": 159.7805,
-        "low": 159.7715,
-        "close": 159.7765,
-        "tickVolume": 30
-      },
-      {
-        "openTime": "2026-11-19T19:50:00Z",
-        "open": 159.7795,
-        "high": 159.7905,
-        "low": 159.7745,
-        "close": 159.7835,
-        "tickVolume": 36
-      },
-      {
-        "openTime": "2026-11-19T19:51:00Z",
-        "open": 159.7825,
-        "high": 159.7915,
-        "low": 159.7825,
-        "close": 159.7895,
-        "tickVolume": 36
-      },
-      {
-        "openTime": "2026-11-19T19:52:00Z",
-        "open": 159.7875,
-        "high": 159.7945,
-        "low": 159.7815,
-        "close": 159.7825,
-        "tickVolume": 31
-      },
       {
         "openTime": "2026-11-19T19:53:00Z",
         "open": 159.7845,
@@ -11713,6 +9530,2198 @@
         "low": 158.5765,
         "close": 158.5765,
         "tickVolume": 9
+      },
+      {
+        "openTime": "2026-11-22T22:28:00Z",
+        "open": 158.574,
+        "high": 158.5745,
+        "low": 158.573,
+        "close": 158.573,
+        "tickVolume": 5
+      },
+      {
+        "openTime": "2026-11-22T22:29:00Z",
+        "open": 158.571,
+        "high": 158.571,
+        "low": 158.571,
+        "close": 158.571,
+        "tickVolume": 1
+      },
+      {
+        "openTime": "2026-11-22T22:30:00Z",
+        "open": 158.5635,
+        "high": 158.5725,
+        "low": 158.5635,
+        "close": 158.5725,
+        "tickVolume": 10
+      },
+      {
+        "openTime": "2026-11-22T22:31:00Z",
+        "open": 158.5735,
+        "high": 158.5755,
+        "low": 158.5735,
+        "close": 158.5735,
+        "tickVolume": 5
+      },
+      {
+        "openTime": "2026-11-22T22:32:00Z",
+        "open": 158.5745,
+        "high": 158.5765,
+        "low": 158.5745,
+        "close": 158.5765,
+        "tickVolume": 3
+      },
+      {
+        "openTime": "2026-11-22T22:33:00Z",
+        "open": 158.5775,
+        "high": 158.5795,
+        "low": 158.5775,
+        "close": 158.5795,
+        "tickVolume": 7
+      },
+      {
+        "openTime": "2026-11-22T22:34:00Z",
+        "open": 158.578,
+        "high": 158.5855,
+        "low": 158.5775,
+        "close": 158.5795,
+        "tickVolume": 13
+      },
+      {
+        "openTime": "2026-11-22T22:35:00Z",
+        "open": 158.5785,
+        "high": 158.5795,
+        "low": 158.5775,
+        "close": 158.579,
+        "tickVolume": 6
+      },
+      {
+        "openTime": "2026-11-22T22:36:00Z",
+        "open": 158.5795,
+        "high": 158.5805,
+        "low": 158.579,
+        "close": 158.58,
+        "tickVolume": 5
+      },
+      {
+        "openTime": "2026-11-22T22:37:00Z",
+        "open": 158.5805,
+        "high": 158.5805,
+        "low": 158.58,
+        "close": 158.58,
+        "tickVolume": 6
+      },
+      {
+        "openTime": "2026-11-22T22:38:00Z",
+        "open": 158.5795,
+        "high": 158.5805,
+        "low": 158.579,
+        "close": 158.579,
+        "tickVolume": 8
+      },
+      {
+        "openTime": "2026-11-22T22:39:00Z",
+        "open": 158.5795,
+        "high": 158.58,
+        "low": 158.5445,
+        "close": 158.546,
+        "tickVolume": 14
+      },
+      {
+        "openTime": "2026-11-22T22:40:00Z",
+        "open": 158.544,
+        "high": 158.5595,
+        "low": 158.54,
+        "close": 158.5595,
+        "tickVolume": 29
+      },
+      {
+        "openTime": "2026-11-22T22:41:00Z",
+        "open": 158.5605,
+        "high": 158.5635,
+        "low": 158.5605,
+        "close": 158.5635,
+        "tickVolume": 7
+      },
+      {
+        "openTime": "2026-11-22T22:42:00Z",
+        "open": 158.5645,
+        "high": 158.566,
+        "low": 158.5645,
+        "close": 158.566,
+        "tickVolume": 5
+      },
+      {
+        "openTime": "2026-11-22T22:43:00Z",
+        "open": 158.567,
+        "high": 158.568,
+        "low": 158.567,
+        "close": 158.568,
+        "tickVolume": 2
+      },
+      {
+        "openTime": "2026-11-22T22:44:00Z",
+        "open": 158.567,
+        "high": 158.567,
+        "low": 158.5665,
+        "close": 158.567,
+        "tickVolume": 3
+      },
+      {
+        "openTime": "2026-11-22T22:45:00Z",
+        "open": 158.5655,
+        "high": 158.5655,
+        "low": 158.5595,
+        "close": 158.5635,
+        "tickVolume": 9
+      },
+      {
+        "openTime": "2026-11-22T22:46:00Z",
+        "open": 158.5625,
+        "high": 158.5625,
+        "low": 158.5605,
+        "close": 158.5605,
+        "tickVolume": 5
+      },
+      {
+        "openTime": "2026-11-22T22:47:00Z",
+        "open": 158.5615,
+        "high": 158.5615,
+        "low": 158.5605,
+        "close": 158.5605,
+        "tickVolume": 4
+      },
+      {
+        "openTime": "2026-11-22T22:48:00Z",
+        "open": 158.5615,
+        "high": 158.5635,
+        "low": 158.5615,
+        "close": 158.5625,
+        "tickVolume": 7
+      },
+      {
+        "openTime": "2026-11-22T22:49:00Z",
+        "open": 158.5635,
+        "high": 158.5635,
+        "low": 158.5615,
+        "close": 158.5615,
+        "tickVolume": 3
+      },
+      {
+        "openTime": "2026-11-22T22:50:00Z",
+        "open": 158.5625,
+        "high": 158.5675,
+        "low": 158.5615,
+        "close": 158.5635,
+        "tickVolume": 12
+      },
+      {
+        "openTime": "2026-11-22T22:51:00Z",
+        "open": 158.5665,
+        "high": 158.5665,
+        "low": 158.5645,
+        "close": 158.5645,
+        "tickVolume": 9
+      },
+      {
+        "openTime": "2026-11-22T22:52:00Z",
+        "open": 158.5635,
+        "high": 158.5645,
+        "low": 158.5615,
+        "close": 158.5615,
+        "tickVolume": 7
+      },
+      {
+        "openTime": "2026-11-22T22:53:00Z",
+        "open": 158.5605,
+        "high": 158.5605,
+        "low": 158.5595,
+        "close": 158.5595,
+        "tickVolume": 2
+      },
+      {
+        "openTime": "2026-11-22T22:54:00Z",
+        "open": 158.5585,
+        "high": 158.5645,
+        "low": 158.5585,
+        "close": 158.5625,
+        "tickVolume": 5
+      },
+      {
+        "openTime": "2026-11-22T22:55:00Z",
+        "open": 158.5645,
+        "high": 158.5785,
+        "low": 158.5635,
+        "close": 158.575,
+        "tickVolume": 15
+      },
+      {
+        "openTime": "2026-11-22T22:56:00Z",
+        "open": 158.5745,
+        "high": 158.5755,
+        "low": 158.568,
+        "close": 158.5695,
+        "tickVolume": 14
+      },
+      {
+        "openTime": "2026-11-22T22:57:00Z",
+        "open": 158.5705,
+        "high": 158.576,
+        "low": 158.5675,
+        "close": 158.5725,
+        "tickVolume": 12
+      },
+      {
+        "openTime": "2026-11-22T22:58:00Z",
+        "open": 158.5735,
+        "high": 158.5745,
+        "low": 158.5695,
+        "close": 158.5745,
+        "tickVolume": 10
+      },
+      {
+        "openTime": "2026-11-22T22:59:00Z",
+        "open": 158.5735,
+        "high": 158.5735,
+        "low": 158.5675,
+        "close": 158.5715,
+        "tickVolume": 6
+      },
+      {
+        "openTime": "2026-11-22T23:00:00Z",
+        "open": 158.573,
+        "high": 158.6135,
+        "low": 158.5305,
+        "close": 158.6135,
+        "tickVolume": 64
+      },
+      {
+        "openTime": "2026-11-22T23:01:00Z",
+        "open": 158.6145,
+        "high": 158.6495,
+        "low": 158.606,
+        "close": 158.644,
+        "tickVolume": 31
+      },
+      {
+        "openTime": "2026-11-22T23:02:00Z",
+        "open": 158.645,
+        "high": 158.659,
+        "low": 158.641,
+        "close": 158.659,
+        "tickVolume": 24
+      },
+      {
+        "openTime": "2026-11-22T23:03:00Z",
+        "open": 158.658,
+        "high": 158.686,
+        "low": 158.657,
+        "close": 158.675,
+        "tickVolume": 38
+      },
+      {
+        "openTime": "2026-11-22T23:04:00Z",
+        "open": 158.675,
+        "high": 158.695,
+        "low": 158.675,
+        "close": 158.6835,
+        "tickVolume": 27
+      },
+      {
+        "openTime": "2026-11-22T23:05:00Z",
+        "open": 158.6825,
+        "high": 158.701,
+        "low": 158.6825,
+        "close": 158.701,
+        "tickVolume": 21
+      },
+      {
+        "openTime": "2026-11-22T23:06:00Z",
+        "open": 158.702,
+        "high": 158.702,
+        "low": 158.688,
+        "close": 158.688,
+        "tickVolume": 24
+      },
+      {
+        "openTime": "2026-11-22T23:07:00Z",
+        "open": 158.684,
+        "high": 158.685,
+        "low": 158.68,
+        "close": 158.6805,
+        "tickVolume": 22
+      },
+      {
+        "openTime": "2026-11-22T23:08:00Z",
+        "open": 158.68,
+        "high": 158.681,
+        "low": 158.642,
+        "close": 158.643,
+        "tickVolume": 25
+      },
+      {
+        "openTime": "2026-11-22T23:09:00Z",
+        "open": 158.6435,
+        "high": 158.6435,
+        "low": 158.63,
+        "close": 158.63,
+        "tickVolume": 10
+      },
+      {
+        "openTime": "2026-11-22T23:10:00Z",
+        "open": 158.631,
+        "high": 158.655,
+        "low": 158.6195,
+        "close": 158.6295,
+        "tickVolume": 38
+      },
+      {
+        "openTime": "2026-11-22T23:11:00Z",
+        "open": 158.6315,
+        "high": 158.646,
+        "low": 158.6305,
+        "close": 158.635,
+        "tickVolume": 23
+      },
+      {
+        "openTime": "2026-11-22T23:12:00Z",
+        "open": 158.631,
+        "high": 158.647,
+        "low": 158.627,
+        "close": 158.6345,
+        "tickVolume": 34
+      },
+      {
+        "openTime": "2026-11-22T23:13:00Z",
+        "open": 158.634,
+        "high": 158.66,
+        "low": 158.634,
+        "close": 158.653,
+        "tickVolume": 40
+      },
+      {
+        "openTime": "2026-11-22T23:14:00Z",
+        "open": 158.656,
+        "high": 158.67,
+        "low": 158.654,
+        "close": 158.669,
+        "tickVolume": 30
+      },
+      {
+        "openTime": "2026-11-22T23:15:00Z",
+        "open": 158.668,
+        "high": 158.729,
+        "low": 158.668,
+        "close": 158.724,
+        "tickVolume": 57
+      },
+      {
+        "openTime": "2026-11-22T23:16:00Z",
+        "open": 158.72,
+        "high": 158.72,
+        "low": 158.697,
+        "close": 158.697,
+        "tickVolume": 44
+      },
+      {
+        "openTime": "2026-11-22T23:17:00Z",
+        "open": 158.698,
+        "high": 158.711,
+        "low": 158.698,
+        "close": 158.711,
+        "tickVolume": 40
+      },
+      {
+        "openTime": "2026-11-22T23:18:00Z",
+        "open": 158.7105,
+        "high": 158.715,
+        "low": 158.704,
+        "close": 158.714,
+        "tickVolume": 40
+      },
+      {
+        "openTime": "2026-11-22T23:19:00Z",
+        "open": 158.713,
+        "high": 158.7575,
+        "low": 158.713,
+        "close": 158.7575,
+        "tickVolume": 48
+      },
+      {
+        "openTime": "2026-11-22T23:20:00Z",
+        "open": 158.7565,
+        "high": 158.81,
+        "low": 158.7565,
+        "close": 158.81,
+        "tickVolume": 48
+      },
+      {
+        "openTime": "2026-11-22T23:21:00Z",
+        "open": 158.799,
+        "high": 158.818,
+        "low": 158.792,
+        "close": 158.807,
+        "tickVolume": 50
+      },
+      {
+        "openTime": "2026-11-22T23:22:00Z",
+        "open": 158.806,
+        "high": 158.8075,
+        "low": 158.793,
+        "close": 158.801,
+        "tickVolume": 45
+      },
+      {
+        "openTime": "2026-11-22T23:23:00Z",
+        "open": 158.8,
+        "high": 158.803,
+        "low": 158.792,
+        "close": 158.7995,
+        "tickVolume": 42
+      },
+      {
+        "openTime": "2026-11-22T23:24:00Z",
+        "open": 158.796,
+        "high": 158.805,
+        "low": 158.781,
+        "close": 158.8,
+        "tickVolume": 59
+      },
+      {
+        "openTime": "2026-11-22T23:25:00Z",
+        "open": 158.8015,
+        "high": 158.8085,
+        "low": 158.799,
+        "close": 158.8,
+        "tickVolume": 34
+      },
+      {
+        "openTime": "2026-11-22T23:26:00Z",
+        "open": 158.795,
+        "high": 158.819,
+        "low": 158.795,
+        "close": 158.818,
+        "tickVolume": 48
+      },
+      {
+        "openTime": "2026-11-22T23:27:00Z",
+        "open": 158.82,
+        "high": 158.843,
+        "low": 158.807,
+        "close": 158.843,
+        "tickVolume": 47
+      },
+      {
+        "openTime": "2026-11-22T23:28:00Z",
+        "open": 158.844,
+        "high": 158.857,
+        "low": 158.844,
+        "close": 158.849,
+        "tickVolume": 47
+      },
+      {
+        "openTime": "2026-11-22T23:29:00Z",
+        "open": 158.845,
+        "high": 158.857,
+        "low": 158.844,
+        "close": 158.857,
+        "tickVolume": 32
+      },
+      {
+        "openTime": "2026-11-22T23:30:00Z",
+        "open": 158.862,
+        "high": 158.8705,
+        "low": 158.85,
+        "close": 158.8625,
+        "tickVolume": 38
+      },
+      {
+        "openTime": "2026-11-22T23:31:00Z",
+        "open": 158.859,
+        "high": 158.878,
+        "low": 158.855,
+        "close": 158.8725,
+        "tickVolume": 35
+      },
+      {
+        "openTime": "2026-11-22T23:32:00Z",
+        "open": 158.8715,
+        "high": 158.875,
+        "low": 158.867,
+        "close": 158.871,
+        "tickVolume": 33
+      },
+      {
+        "openTime": "2026-11-22T23:33:00Z",
+        "open": 158.8705,
+        "high": 158.879,
+        "low": 158.8515,
+        "close": 158.853,
+        "tickVolume": 44
+      },
+      {
+        "openTime": "2026-11-22T23:34:00Z",
+        "open": 158.851,
+        "high": 158.852,
+        "low": 158.839,
+        "close": 158.846,
+        "tickVolume": 48
+      },
+      {
+        "openTime": "2026-11-22T23:35:00Z",
+        "open": 158.842,
+        "high": 158.851,
+        "low": 158.829,
+        "close": 158.83,
+        "tickVolume": 33
+      },
+      {
+        "openTime": "2026-11-22T23:36:00Z",
+        "open": 158.829,
+        "high": 158.857,
+        "low": 158.828,
+        "close": 158.856,
+        "tickVolume": 40
+      },
+      {
+        "openTime": "2026-11-22T23:37:00Z",
+        "open": 158.855,
+        "high": 158.8565,
+        "low": 158.828,
+        "close": 158.832,
+        "tickVolume": 38
+      },
+      {
+        "openTime": "2026-11-22T23:38:00Z",
+        "open": 158.8335,
+        "high": 158.8335,
+        "low": 158.82,
+        "close": 158.831,
+        "tickVolume": 34
+      },
+      {
+        "openTime": "2026-11-22T23:39:00Z",
+        "open": 158.832,
+        "high": 158.843,
+        "low": 158.819,
+        "close": 158.8275,
+        "tickVolume": 46
+      },
+      {
+        "openTime": "2026-11-22T23:40:00Z",
+        "open": 158.8265,
+        "high": 158.833,
+        "low": 158.819,
+        "close": 158.8305,
+        "tickVolume": 33
+      },
+      {
+        "openTime": "2026-11-22T23:41:00Z",
+        "open": 158.8315,
+        "high": 158.851,
+        "low": 158.8305,
+        "close": 158.847,
+        "tickVolume": 26
+      },
+      {
+        "openTime": "2026-11-22T23:42:00Z",
+        "open": 158.8475,
+        "high": 158.853,
+        "low": 158.827,
+        "close": 158.829,
+        "tickVolume": 42
+      },
+      {
+        "openTime": "2026-11-22T23:43:00Z",
+        "open": 158.828,
+        "high": 158.828,
+        "low": 158.7915,
+        "close": 158.7995,
+        "tickVolume": 29
+      },
+      {
+        "openTime": "2026-11-22T23:44:00Z",
+        "open": 158.801,
+        "high": 158.8185,
+        "low": 158.801,
+        "close": 158.8175,
+        "tickVolume": 34
+      },
+      {
+        "openTime": "2026-11-22T23:45:00Z",
+        "open": 158.8185,
+        "high": 158.828,
+        "low": 158.806,
+        "close": 158.807,
+        "tickVolume": 38
+      },
+      {
+        "openTime": "2026-11-22T23:46:00Z",
+        "open": 158.806,
+        "high": 158.817,
+        "low": 158.795,
+        "close": 158.817,
+        "tickVolume": 37
+      },
+      {
+        "openTime": "2026-11-22T23:47:00Z",
+        "open": 158.816,
+        "high": 158.832,
+        "low": 158.815,
+        "close": 158.83,
+        "tickVolume": 25
+      },
+      {
+        "openTime": "2026-11-22T23:48:00Z",
+        "open": 158.8315,
+        "high": 158.8315,
+        "low": 158.818,
+        "close": 158.827,
+        "tickVolume": 25
+      },
+      {
+        "openTime": "2026-11-22T23:49:00Z",
+        "open": 158.8285,
+        "high": 158.8305,
+        "low": 158.816,
+        "close": 158.8185,
+        "tickVolume": 29
+      },
+      {
+        "openTime": "2026-11-22T23:50:00Z",
+        "open": 158.8195,
+        "high": 158.845,
+        "low": 158.819,
+        "close": 158.845,
+        "tickVolume": 29
+      },
+      {
+        "openTime": "2026-11-22T23:51:00Z",
+        "open": 158.844,
+        "high": 158.847,
+        "low": 158.84,
+        "close": 158.8445,
+        "tickVolume": 24
+      },
+      {
+        "openTime": "2026-11-22T23:52:00Z",
+        "open": 158.8435,
+        "high": 158.8455,
+        "low": 158.83,
+        "close": 158.84,
+        "tickVolume": 39
+      },
+      {
+        "openTime": "2026-11-22T23:53:00Z",
+        "open": 158.8415,
+        "high": 158.869,
+        "low": 158.8415,
+        "close": 158.868,
+        "tickVolume": 29
+      },
+      {
+        "openTime": "2026-11-22T23:54:00Z",
+        "open": 158.867,
+        "high": 158.883,
+        "low": 158.867,
+        "close": 158.8765,
+        "tickVolume": 29
+      },
+      {
+        "openTime": "2026-11-22T23:55:00Z",
+        "open": 158.873,
+        "high": 158.8805,
+        "low": 158.8445,
+        "close": 158.846,
+        "tickVolume": 38
+      },
+      {
+        "openTime": "2026-11-22T23:56:00Z",
+        "open": 158.845,
+        "high": 158.869,
+        "low": 158.845,
+        "close": 158.862,
+        "tickVolume": 38
+      },
+      {
+        "openTime": "2026-11-22T23:57:00Z",
+        "open": 158.863,
+        "high": 158.888,
+        "low": 158.863,
+        "close": 158.8845,
+        "tickVolume": 36
+      },
+      {
+        "openTime": "2026-11-22T23:58:00Z",
+        "open": 158.885,
+        "high": 158.919,
+        "low": 158.882,
+        "close": 158.919,
+        "tickVolume": 32
+      },
+      {
+        "openTime": "2026-11-22T23:59:00Z",
+        "open": 158.915,
+        "high": 158.942,
+        "low": 158.909,
+        "close": 158.934,
+        "tickVolume": 25
+      },
+      {
+        "openTime": "2026-11-23T00:00:00Z",
+        "open": 158.9405,
+        "high": 158.9585,
+        "low": 158.9175,
+        "close": 158.9505,
+        "tickVolume": 84
+      },
+      {
+        "openTime": "2026-11-23T00:01:00Z",
+        "open": 158.9495,
+        "high": 159.0355,
+        "low": 158.9495,
+        "close": 158.9975,
+        "tickVolume": 119
+      },
+      {
+        "openTime": "2026-11-23T00:02:00Z",
+        "open": 158.9995,
+        "high": 159.0125,
+        "low": 158.9565,
+        "close": 158.9725,
+        "tickVolume": 94
+      },
+      {
+        "openTime": "2026-11-23T00:03:00Z",
+        "open": 158.9735,
+        "high": 158.9975,
+        "low": 158.9705,
+        "close": 158.9825,
+        "tickVolume": 80
+      },
+      {
+        "openTime": "2026-11-23T00:04:00Z",
+        "open": 158.9845,
+        "high": 158.9865,
+        "low": 158.9585,
+        "close": 158.9795,
+        "tickVolume": 59
+      },
+      {
+        "openTime": "2026-11-23T00:05:00Z",
+        "open": 158.9815,
+        "high": 159.0065,
+        "low": 158.9815,
+        "close": 159.0005,
+        "tickVolume": 52
+      },
+      {
+        "openTime": "2026-11-23T00:06:00Z",
+        "open": 159.0025,
+        "high": 159.0415,
+        "low": 159.0025,
+        "close": 159.0075,
+        "tickVolume": 65
+      },
+      {
+        "openTime": "2026-11-23T00:07:00Z",
+        "open": 159.0095,
+        "high": 159.0095,
+        "low": 158.9735,
+        "close": 158.9875,
+        "tickVolume": 59
+      },
+      {
+        "openTime": "2026-11-23T00:08:00Z",
+        "open": 158.9955,
+        "high": 159.0135,
+        "low": 158.9885,
+        "close": 158.9965,
+        "tickVolume": 66
+      },
+      {
+        "openTime": "2026-11-23T00:09:00Z",
+        "open": 158.9955,
+        "high": 159.0145,
+        "low": 158.9835,
+        "close": 158.9875,
+        "tickVolume": 70
+      },
+      {
+        "openTime": "2026-11-23T00:10:00Z",
+        "open": 158.9855,
+        "high": 158.9855,
+        "low": 158.9545,
+        "close": 158.9575,
+        "tickVolume": 62
+      },
+      {
+        "openTime": "2026-11-23T00:11:00Z",
+        "open": 158.9595,
+        "high": 158.9635,
+        "low": 158.9505,
+        "close": 158.9585,
+        "tickVolume": 39
+      },
+      {
+        "openTime": "2026-11-23T00:12:00Z",
+        "open": 158.9555,
+        "high": 158.9625,
+        "low": 158.9455,
+        "close": 158.9455,
+        "tickVolume": 40
+      },
+      {
+        "openTime": "2026-11-23T00:13:00Z",
+        "open": 158.9465,
+        "high": 158.9465,
+        "low": 158.9305,
+        "close": 158.9305,
+        "tickVolume": 35
+      },
+      {
+        "openTime": "2026-11-23T00:14:00Z",
+        "open": 158.9285,
+        "high": 158.9345,
+        "low": 158.9195,
+        "close": 158.9325,
+        "tickVolume": 35
+      },
+      {
+        "openTime": "2026-11-23T00:15:00Z",
+        "open": 158.9335,
+        "high": 158.9405,
+        "low": 158.9035,
+        "close": 158.9035,
+        "tickVolume": 64
+      },
+      {
+        "openTime": "2026-11-23T00:16:00Z",
+        "open": 158.9015,
+        "high": 158.9085,
+        "low": 158.8905,
+        "close": 158.8905,
+        "tickVolume": 46
+      },
+      {
+        "openTime": "2026-11-23T00:17:00Z",
+        "open": 158.8845,
+        "high": 158.8935,
+        "low": 158.8685,
+        "close": 158.8715,
+        "tickVolume": 70
+      },
+      {
+        "openTime": "2026-11-23T00:18:00Z",
+        "open": 158.8725,
+        "high": 158.9075,
+        "low": 158.8655,
+        "close": 158.9065,
+        "tickVolume": 53
+      },
+      {
+        "openTime": "2026-11-23T00:19:00Z",
+        "open": 158.9085,
+        "high": 158.9095,
+        "low": 158.8935,
+        "close": 158.9085,
+        "tickVolume": 48
+      },
+      {
+        "openTime": "2026-11-23T00:20:00Z",
+        "open": 158.9095,
+        "high": 158.9225,
+        "low": 158.9015,
+        "close": 158.9225,
+        "tickVolume": 39
+      },
+      {
+        "openTime": "2026-11-23T00:21:00Z",
+        "open": 158.9215,
+        "high": 158.9405,
+        "low": 158.9145,
+        "close": 158.9235,
+        "tickVolume": 55
+      },
+      {
+        "openTime": "2026-11-23T00:22:00Z",
+        "open": 158.9255,
+        "high": 158.9365,
+        "low": 158.9015,
+        "close": 158.9015,
+        "tickVolume": 50
+      },
+      {
+        "openTime": "2026-11-23T00:23:00Z",
+        "open": 158.8995,
+        "high": 158.9085,
+        "low": 158.8915,
+        "close": 158.9075,
+        "tickVolume": 44
+      },
+      {
+        "openTime": "2026-11-23T00:24:00Z",
+        "open": 158.9065,
+        "high": 158.9105,
+        "low": 158.8945,
+        "close": 158.8945,
+        "tickVolume": 51
+      },
+      {
+        "openTime": "2026-11-23T00:25:00Z",
+        "open": 158.8965,
+        "high": 158.9055,
+        "low": 158.8835,
+        "close": 158.8975,
+        "tickVolume": 49
+      },
+      {
+        "openTime": "2026-11-23T00:26:00Z",
+        "open": 158.8965,
+        "high": 158.9185,
+        "low": 158.8945,
+        "close": 158.8945,
+        "tickVolume": 52
+      },
+      {
+        "openTime": "2026-11-23T00:27:00Z",
+        "open": 158.8955,
+        "high": 158.9085,
+        "low": 158.8875,
+        "close": 158.8945,
+        "tickVolume": 50
+      },
+      {
+        "openTime": "2026-11-23T00:28:00Z",
+        "open": 158.8955,
+        "high": 158.8955,
+        "low": 158.8705,
+        "close": 158.8845,
+        "tickVolume": 44
+      },
+      {
+        "openTime": "2026-11-23T00:29:00Z",
+        "open": 158.8865,
+        "high": 158.9055,
+        "low": 158.8835,
+        "close": 158.8995,
+        "tickVolume": 57
+      },
+      {
+        "openTime": "2026-11-23T00:30:00Z",
+        "open": 158.8975,
+        "high": 158.9235,
+        "low": 158.8815,
+        "close": 158.9105,
+        "tickVolume": 57
+      },
+      {
+        "openTime": "2026-11-23T00:31:00Z",
+        "open": 158.9095,
+        "high": 158.9145,
+        "low": 158.8945,
+        "close": 158.9035,
+        "tickVolume": 41
+      },
+      {
+        "openTime": "2026-11-23T00:32:00Z",
+        "open": 158.8955,
+        "high": 158.8975,
+        "low": 158.8785,
+        "close": 158.8905,
+        "tickVolume": 53
+      },
+      {
+        "openTime": "2026-11-23T00:33:00Z",
+        "open": 158.8925,
+        "high": 158.9265,
+        "low": 158.8895,
+        "close": 158.9055,
+        "tickVolume": 60
+      },
+      {
+        "openTime": "2026-11-23T00:34:00Z",
+        "open": 158.8975,
+        "high": 158.8995,
+        "low": 158.8815,
+        "close": 158.8835,
+        "tickVolume": 49
+      },
+      {
+        "openTime": "2026-11-23T00:35:00Z",
+        "open": 158.8855,
+        "high": 158.8965,
+        "low": 158.8845,
+        "close": 158.8915,
+        "tickVolume": 41
+      },
+      {
+        "openTime": "2026-11-23T00:36:00Z",
+        "open": 158.8905,
+        "high": 158.9025,
+        "low": 158.8825,
+        "close": 158.8895,
+        "tickVolume": 45
+      },
+      {
+        "openTime": "2026-11-23T00:37:00Z",
+        "open": 158.8935,
+        "high": 158.8935,
+        "low": 158.8615,
+        "close": 158.8715,
+        "tickVolume": 45
+      },
+      {
+        "openTime": "2026-11-23T00:38:00Z",
+        "open": 158.8705,
+        "high": 158.8735,
+        "low": 158.8515,
+        "close": 158.8555,
+        "tickVolume": 46
+      },
+      {
+        "openTime": "2026-11-23T00:39:00Z",
+        "open": 158.8545,
+        "high": 158.8565,
+        "low": 158.8205,
+        "close": 158.8295,
+        "tickVolume": 53
+      },
+      {
+        "openTime": "2026-11-23T00:40:00Z",
+        "open": 158.8245,
+        "high": 158.8485,
+        "low": 158.8225,
+        "close": 158.8325,
+        "tickVolume": 55
+      },
+      {
+        "openTime": "2026-11-23T00:41:00Z",
+        "open": 158.8305,
+        "high": 158.8515,
+        "low": 158.8295,
+        "close": 158.8475,
+        "tickVolume": 51
+      },
+      {
+        "openTime": "2026-11-23T00:42:00Z",
+        "open": 158.8445,
+        "high": 158.8615,
+        "low": 158.8405,
+        "close": 158.8425,
+        "tickVolume": 56
+      },
+      {
+        "openTime": "2026-11-23T00:43:00Z",
+        "open": 158.8435,
+        "high": 158.8725,
+        "low": 158.8435,
+        "close": 158.8695,
+        "tickVolume": 57
+      },
+      {
+        "openTime": "2026-11-23T00:44:00Z",
+        "open": 158.8685,
+        "high": 158.8795,
+        "low": 158.8635,
+        "close": 158.8705,
+        "tickVolume": 56
+      },
+      {
+        "openTime": "2026-11-23T00:45:00Z",
+        "open": 158.8745,
+        "high": 158.8925,
+        "low": 158.8505,
+        "close": 158.8915,
+        "tickVolume": 65
+      },
+      {
+        "openTime": "2026-11-23T00:46:00Z",
+        "open": 158.8945,
+        "high": 158.9125,
+        "low": 158.8845,
+        "close": 158.8945,
+        "tickVolume": 79
+      },
+      {
+        "openTime": "2026-11-23T00:47:00Z",
+        "open": 158.8955,
+        "high": 158.8975,
+        "low": 158.8765,
+        "close": 158.8795,
+        "tickVolume": 56
+      },
+      {
+        "openTime": "2026-11-23T00:48:00Z",
+        "open": 158.8785,
+        "high": 158.8875,
+        "low": 158.8705,
+        "close": 158.8725,
+        "tickVolume": 57
+      },
+      {
+        "openTime": "2026-11-23T00:49:00Z",
+        "open": 158.8705,
+        "high": 158.8795,
+        "low": 158.8545,
+        "close": 158.8595,
+        "tickVolume": 56
+      },
+      {
+        "openTime": "2026-11-23T00:50:00Z",
+        "open": 158.8565,
+        "high": 158.8845,
+        "low": 158.8545,
+        "close": 158.8835,
+        "tickVolume": 42
+      },
+      {
+        "openTime": "2026-11-23T00:51:00Z",
+        "open": 158.8815,
+        "high": 158.8825,
+        "low": 158.8695,
+        "close": 158.8795,
+        "tickVolume": 45
+      },
+      {
+        "openTime": "2026-11-23T00:52:00Z",
+        "open": 158.8815,
+        "high": 158.8925,
+        "low": 158.8635,
+        "close": 158.8655,
+        "tickVolume": 43
+      },
+      {
+        "openTime": "2026-11-23T00:53:00Z",
+        "open": 158.8665,
+        "high": 158.8785,
+        "low": 158.8645,
+        "close": 158.8665,
+        "tickVolume": 46
+      },
+      {
+        "openTime": "2026-11-23T00:54:00Z",
+        "open": 158.8675,
+        "high": 158.8935,
+        "low": 158.8525,
+        "close": 158.8855,
+        "tickVolume": 59
+      },
+      {
+        "openTime": "2026-11-23T00:55:00Z",
+        "open": 158.8825,
+        "high": 158.8935,
+        "low": 158.8645,
+        "close": 158.8675,
+        "tickVolume": 70
+      },
+      {
+        "openTime": "2026-11-23T00:56:00Z",
+        "open": 158.8665,
+        "high": 158.8925,
+        "low": 158.8625,
+        "close": 158.8925,
+        "tickVolume": 70
+      },
+      {
+        "openTime": "2026-11-23T00:57:00Z",
+        "open": 158.8905,
+        "high": 158.9025,
+        "low": 158.8775,
+        "close": 158.8945,
+        "tickVolume": 56
+      },
+      {
+        "openTime": "2026-11-23T00:58:00Z",
+        "open": 158.8975,
+        "high": 158.9065,
+        "low": 158.8825,
+        "close": 158.8985,
+        "tickVolume": 41
+      },
+      {
+        "openTime": "2026-11-23T00:59:00Z",
+        "open": 158.8975,
+        "high": 158.9315,
+        "low": 158.8915,
+        "close": 158.9145,
+        "tickVolume": 56
+      },
+      {
+        "openTime": "2026-11-23T01:00:00Z",
+        "open": 158.9125,
+        "high": 158.9275,
+        "low": 158.9025,
+        "close": 158.9185,
+        "tickVolume": 93
+      },
+      {
+        "openTime": "2026-11-23T01:01:00Z",
+        "open": 158.9165,
+        "high": 158.9165,
+        "low": 158.8285,
+        "close": 158.8305,
+        "tickVolume": 77
+      },
+      {
+        "openTime": "2026-11-23T01:02:00Z",
+        "open": 158.8295,
+        "high": 158.9195,
+        "low": 158.8255,
+        "close": 158.8935,
+        "tickVolume": 94
+      },
+      {
+        "openTime": "2026-11-23T01:03:00Z",
+        "open": 158.8965,
+        "high": 158.9165,
+        "low": 158.8835,
+        "close": 158.9075,
+        "tickVolume": 90
+      },
+      {
+        "openTime": "2026-11-23T01:04:00Z",
+        "open": 158.9055,
+        "high": 158.9145,
+        "low": 158.8515,
+        "close": 158.8575,
+        "tickVolume": 75
+      },
+      {
+        "openTime": "2026-11-23T01:05:00Z",
+        "open": 158.8615,
+        "high": 158.8715,
+        "low": 158.8405,
+        "close": 158.8665,
+        "tickVolume": 74
+      },
+      {
+        "openTime": "2026-11-23T01:06:00Z",
+        "open": 158.8685,
+        "high": 158.8785,
+        "low": 158.8575,
+        "close": 158.8645,
+        "tickVolume": 76
+      },
+      {
+        "openTime": "2026-11-23T01:07:00Z",
+        "open": 158.8695,
+        "high": 158.8695,
+        "low": 158.8335,
+        "close": 158.8475,
+        "tickVolume": 74
+      },
+      {
+        "openTime": "2026-11-23T01:08:00Z",
+        "open": 158.8485,
+        "high": 158.8565,
+        "low": 158.8325,
+        "close": 158.8365,
+        "tickVolume": 87
+      },
+      {
+        "openTime": "2026-11-23T01:09:00Z",
+        "open": 158.8385,
+        "high": 158.8475,
+        "low": 158.8355,
+        "close": 158.8415,
+        "tickVolume": 55
+      },
+      {
+        "openTime": "2026-11-23T01:10:00Z",
+        "open": 158.8435,
+        "high": 158.8595,
+        "low": 158.8155,
+        "close": 158.8595,
+        "tickVolume": 84
+      },
+      {
+        "openTime": "2026-11-23T01:11:00Z",
+        "open": 158.8625,
+        "high": 158.8795,
+        "low": 158.8575,
+        "close": 158.8785,
+        "tickVolume": 63
+      },
+      {
+        "openTime": "2026-11-23T01:12:00Z",
+        "open": 158.8775,
+        "high": 158.8935,
+        "low": 158.8685,
+        "close": 158.8805,
+        "tickVolume": 65
+      },
+      {
+        "openTime": "2026-11-23T01:13:00Z",
+        "open": 158.8795,
+        "high": 158.8835,
+        "low": 158.8615,
+        "close": 158.8645,
+        "tickVolume": 41
+      },
+      {
+        "openTime": "2026-11-23T01:14:00Z",
+        "open": 158.8685,
+        "high": 158.8685,
+        "low": 158.8445,
+        "close": 158.8535,
+        "tickVolume": 47
+      },
+      {
+        "openTime": "2026-11-23T01:15:00Z",
+        "open": 158.8545,
+        "high": 158.8565,
+        "low": 158.8165,
+        "close": 158.8305,
+        "tickVolume": 63
+      },
+      {
+        "openTime": "2026-11-23T01:16:00Z",
+        "open": 158.8235,
+        "high": 158.8785,
+        "low": 158.8155,
+        "close": 158.8775,
+        "tickVolume": 103
+      },
+      {
+        "openTime": "2026-11-23T01:17:00Z",
+        "open": 158.8795,
+        "high": 158.8975,
+        "low": 158.8565,
+        "close": 158.8625,
+        "tickVolume": 101
+      },
+      {
+        "openTime": "2026-11-23T01:18:00Z",
+        "open": 158.8615,
+        "high": 158.8775,
+        "low": 158.8445,
+        "close": 158.8695,
+        "tickVolume": 70
+      },
+      {
+        "openTime": "2026-11-23T01:19:00Z",
+        "open": 158.8675,
+        "high": 158.8725,
+        "low": 158.8405,
+        "close": 158.8465,
+        "tickVolume": 73
+      },
+      {
+        "openTime": "2026-11-23T01:20:00Z",
+        "open": 158.8445,
+        "high": 158.8485,
+        "low": 158.8335,
+        "close": 158.8355,
+        "tickVolume": 49
+      },
+      {
+        "openTime": "2026-11-23T01:21:00Z",
+        "open": 158.8385,
+        "high": 158.8675,
+        "low": 158.8335,
+        "close": 158.8545,
+        "tickVolume": 67
+      },
+      {
+        "openTime": "2026-11-23T01:22:00Z",
+        "open": 158.8535,
+        "high": 158.8575,
+        "low": 158.8165,
+        "close": 158.8555,
+        "tickVolume": 75
+      },
+      {
+        "openTime": "2026-11-23T01:23:00Z",
+        "open": 158.8545,
+        "high": 158.8645,
+        "low": 158.8275,
+        "close": 158.8275,
+        "tickVolume": 61
+      },
+      {
+        "openTime": "2026-11-23T01:24:00Z",
+        "open": 158.8285,
+        "high": 158.8725,
+        "low": 158.8285,
+        "close": 158.8545,
+        "tickVolume": 63
+      },
+      {
+        "openTime": "2026-11-23T01:25:00Z",
+        "open": 158.8575,
+        "high": 158.8765,
+        "low": 158.8545,
+        "close": 158.8645,
+        "tickVolume": 65
+      },
+      {
+        "openTime": "2026-11-23T01:26:00Z",
+        "open": 158.8665,
+        "high": 158.8885,
+        "low": 158.8665,
+        "close": 158.8825,
+        "tickVolume": 80
+      },
+      {
+        "openTime": "2026-11-23T01:27:00Z",
+        "open": 158.8775,
+        "high": 158.8985,
+        "low": 158.8535,
+        "close": 158.8975,
+        "tickVolume": 82
+      },
+      {
+        "openTime": "2026-11-23T01:28:00Z",
+        "open": 158.8955,
+        "high": 158.9055,
+        "low": 158.8835,
+        "close": 158.8925,
+        "tickVolume": 66
+      },
+      {
+        "openTime": "2026-11-23T01:29:00Z",
+        "open": 158.8895,
+        "high": 158.9095,
+        "low": 158.8875,
+        "close": 158.9045,
+        "tickVolume": 53
+      },
+      {
+        "openTime": "2026-11-23T01:30:00Z",
+        "open": 158.9015,
+        "high": 158.9105,
+        "low": 158.8895,
+        "close": 158.9085,
+        "tickVolume": 62
+      },
+      {
+        "openTime": "2026-11-23T01:31:00Z",
+        "open": 158.9095,
+        "high": 158.9105,
+        "low": 158.8945,
+        "close": 158.9075,
+        "tickVolume": 65
+      },
+      {
+        "openTime": "2026-11-23T01:32:00Z",
+        "open": 158.9095,
+        "high": 158.9375,
+        "low": 158.9075,
+        "close": 158.9255,
+        "tickVolume": 59
+      },
+      {
+        "openTime": "2026-11-23T01:33:00Z",
+        "open": 158.9265,
+        "high": 158.9335,
+        "low": 158.9185,
+        "close": 158.9205,
+        "tickVolume": 60
+      },
+      {
+        "openTime": "2026-11-23T01:34:00Z",
+        "open": 158.9225,
+        "high": 158.9225,
+        "low": 158.9005,
+        "close": 158.9165,
+        "tickVolume": 57
+      },
+      {
+        "openTime": "2026-11-23T01:35:00Z",
+        "open": 158.9135,
+        "high": 158.9245,
+        "low": 158.8955,
+        "close": 158.9195,
+        "tickVolume": 76
+      },
+      {
+        "openTime": "2026-11-23T01:36:00Z",
+        "open": 158.9175,
+        "high": 158.9185,
+        "low": 158.8975,
+        "close": 158.9185,
+        "tickVolume": 68
+      },
+      {
+        "openTime": "2026-11-23T01:37:00Z",
+        "open": 158.9155,
+        "high": 158.9175,
+        "low": 158.8975,
+        "close": 158.9115,
+        "tickVolume": 52
+      },
+      {
+        "openTime": "2026-11-23T01:38:00Z",
+        "open": 158.9145,
+        "high": 158.9225,
+        "low": 158.9035,
+        "close": 158.9055,
+        "tickVolume": 53
+      },
+      {
+        "openTime": "2026-11-23T01:39:00Z",
+        "open": 158.9065,
+        "high": 158.9195,
+        "low": 158.9005,
+        "close": 158.9165,
+        "tickVolume": 51
+      },
+      {
+        "openTime": "2026-11-23T01:40:00Z",
+        "open": 158.9135,
+        "high": 158.9205,
+        "low": 158.8965,
+        "close": 158.9195,
+        "tickVolume": 58
+      },
+      {
+        "openTime": "2026-11-23T01:41:00Z",
+        "open": 158.9175,
+        "high": 158.9675,
+        "low": 158.9175,
+        "close": 158.9665,
+        "tickVolume": 65
+      },
+      {
+        "openTime": "2026-11-23T01:42:00Z",
+        "open": 158.9685,
+        "high": 158.9715,
+        "low": 158.9525,
+        "close": 158.9685,
+        "tickVolume": 55
+      },
+      {
+        "openTime": "2026-11-23T01:43:00Z",
+        "open": 158.9675,
+        "high": 158.9675,
+        "low": 158.9395,
+        "close": 158.9565,
+        "tickVolume": 49
+      },
+      {
+        "openTime": "2026-11-23T01:44:00Z",
+        "open": 158.9555,
+        "high": 158.9555,
+        "low": 158.9385,
+        "close": 158.9415,
+        "tickVolume": 35
+      },
+      {
+        "openTime": "2026-11-23T01:45:00Z",
+        "open": 158.9385,
+        "high": 158.9545,
+        "low": 158.9305,
+        "close": 158.9435,
+        "tickVolume": 44
+      },
+      {
+        "openTime": "2026-11-23T01:46:00Z",
+        "open": 158.9425,
+        "high": 158.9565,
+        "low": 158.9395,
+        "close": 158.9465,
+        "tickVolume": 38
+      },
+      {
+        "openTime": "2026-11-23T01:47:00Z",
+        "open": 158.9445,
+        "high": 158.9455,
+        "low": 158.9205,
+        "close": 158.9455,
+        "tickVolume": 49
+      },
+      {
+        "openTime": "2026-11-23T01:48:00Z",
+        "open": 158.9435,
+        "high": 158.9555,
+        "low": 158.9405,
+        "close": 158.9435,
+        "tickVolume": 31
+      },
+      {
+        "openTime": "2026-11-23T01:49:00Z",
+        "open": 158.9425,
+        "high": 158.9425,
+        "low": 158.9205,
+        "close": 158.9265,
+        "tickVolume": 41
+      },
+      {
+        "openTime": "2026-11-23T01:50:00Z",
+        "open": 158.9295,
+        "high": 158.9405,
+        "low": 158.9295,
+        "close": 158.9365,
+        "tickVolume": 45
+      },
+      {
+        "openTime": "2026-11-23T01:51:00Z",
+        "open": 158.9385,
+        "high": 158.9405,
+        "low": 158.9265,
+        "close": 158.9275,
+        "tickVolume": 42
+      },
+      {
+        "openTime": "2026-11-23T01:52:00Z",
+        "open": 158.9285,
+        "high": 158.9305,
+        "low": 158.9135,
+        "close": 158.9145,
+        "tickVolume": 33
+      },
+      {
+        "openTime": "2026-11-23T01:53:00Z",
+        "open": 158.9125,
+        "high": 158.9145,
+        "low": 158.9025,
+        "close": 158.9025,
+        "tickVolume": 42
+      },
+      {
+        "openTime": "2026-11-23T01:54:00Z",
+        "open": 158.9005,
+        "high": 158.9025,
+        "low": 158.8905,
+        "close": 158.8995,
+        "tickVolume": 42
+      },
+      {
+        "openTime": "2026-11-23T01:55:00Z",
+        "open": 158.8975,
+        "high": 158.9345,
+        "low": 158.8925,
+        "close": 158.9225,
+        "tickVolume": 51
+      },
+      {
+        "openTime": "2026-11-23T01:56:00Z",
+        "open": 158.9205,
+        "high": 158.9365,
+        "low": 158.9185,
+        "close": 158.9315,
+        "tickVolume": 40
+      },
+      {
+        "openTime": "2026-11-23T01:57:00Z",
+        "open": 158.9295,
+        "high": 158.9315,
+        "low": 158.9195,
+        "close": 158.9275,
+        "tickVolume": 37
+      },
+      {
+        "openTime": "2026-11-23T01:58:00Z",
+        "open": 158.9245,
+        "high": 158.9285,
+        "low": 158.9065,
+        "close": 158.9085,
+        "tickVolume": 44
+      },
+      {
+        "openTime": "2026-11-23T01:59:00Z",
+        "open": 158.9075,
+        "high": 158.9075,
+        "low": 158.8865,
+        "close": 158.8905,
+        "tickVolume": 47
+      },
+      {
+        "openTime": "2026-11-23T02:00:00Z",
+        "open": 158.8925,
+        "high": 158.9345,
+        "low": 158.8875,
+        "close": 158.9325,
+        "tickVolume": 68
+      },
+      {
+        "openTime": "2026-11-23T02:01:00Z",
+        "open": 158.9395,
+        "high": 158.9565,
+        "low": 158.9395,
+        "close": 158.9425,
+        "tickVolume": 68
+      },
+      {
+        "openTime": "2026-11-23T02:02:00Z",
+        "open": 158.9455,
+        "high": 158.9525,
+        "low": 158.9345,
+        "close": 158.9425,
+        "tickVolume": 49
+      },
+      {
+        "openTime": "2026-11-23T02:03:00Z",
+        "open": 158.9445,
+        "high": 158.9525,
+        "low": 158.9385,
+        "close": 158.9415,
+        "tickVolume": 39
+      },
+      {
+        "openTime": "2026-11-23T02:04:00Z",
+        "open": 158.9445,
+        "high": 158.9495,
+        "low": 158.9275,
+        "close": 158.9275,
+        "tickVolume": 50
+      },
+      {
+        "openTime": "2026-11-23T02:05:00Z",
+        "open": 158.9255,
+        "high": 158.9445,
+        "low": 158.9185,
+        "close": 158.9425,
+        "tickVolume": 55
+      },
+      {
+        "openTime": "2026-11-23T02:06:00Z",
+        "open": 158.9435,
+        "high": 158.9595,
+        "low": 158.9435,
+        "close": 158.9485,
+        "tickVolume": 46
+      },
+      {
+        "openTime": "2026-11-23T02:07:00Z",
+        "open": 158.9475,
+        "high": 158.9615,
+        "low": 158.9435,
+        "close": 158.9555,
+        "tickVolume": 58
+      },
+      {
+        "openTime": "2026-11-23T02:08:00Z",
+        "open": 158.9575,
+        "high": 158.9595,
+        "low": 158.9215,
+        "close": 158.9225,
+        "tickVolume": 44
+      },
+      {
+        "openTime": "2026-11-23T02:09:00Z",
+        "open": 158.9185,
+        "high": 158.9445,
+        "low": 158.9185,
+        "close": 158.9365,
+        "tickVolume": 52
+      },
+      {
+        "openTime": "2026-11-23T02:10:00Z",
+        "open": 158.9375,
+        "high": 158.9405,
+        "low": 158.9215,
+        "close": 158.9215,
+        "tickVolume": 49
+      },
+      {
+        "openTime": "2026-11-23T02:11:00Z",
+        "open": 158.9105,
+        "high": 158.9345,
+        "low": 158.8965,
+        "close": 158.9305,
+        "tickVolume": 54
+      },
+      {
+        "openTime": "2026-11-23T02:12:00Z",
+        "open": 158.9295,
+        "high": 158.9335,
+        "low": 158.9135,
+        "close": 158.9205,
+        "tickVolume": 49
+      },
+      {
+        "openTime": "2026-11-23T02:13:00Z",
+        "open": 158.9175,
+        "high": 158.9245,
+        "low": 158.8985,
+        "close": 158.9015,
+        "tickVolume": 53
+      },
+      {
+        "openTime": "2026-11-23T02:14:00Z",
+        "open": 158.9025,
+        "high": 158.9135,
+        "low": 158.9005,
+        "close": 158.9125,
+        "tickVolume": 37
+      },
+      {
+        "openTime": "2026-11-23T02:15:00Z",
+        "open": 158.9135,
+        "high": 158.9255,
+        "low": 158.9115,
+        "close": 158.9195,
+        "tickVolume": 43
+      },
+      {
+        "openTime": "2026-11-23T02:16:00Z",
+        "open": 158.9175,
+        "high": 158.9235,
+        "low": 158.9075,
+        "close": 158.9095,
+        "tickVolume": 40
+      },
+      {
+        "openTime": "2026-11-23T02:17:00Z",
+        "open": 158.9105,
+        "high": 158.9115,
+        "low": 158.8995,
+        "close": 158.9015,
+        "tickVolume": 38
+      },
+      {
+        "openTime": "2026-11-23T02:18:00Z",
+        "open": 158.9025,
+        "high": 158.9025,
+        "low": 158.8665,
+        "close": 158.8745,
+        "tickVolume": 44
+      },
+      {
+        "openTime": "2026-11-23T02:19:00Z",
+        "open": 158.8735,
+        "high": 158.8855,
+        "low": 158.8685,
+        "close": 158.8845,
+        "tickVolume": 39
+      },
+      {
+        "openTime": "2026-11-23T02:20:00Z",
+        "open": 158.8855,
+        "high": 158.8875,
+        "low": 158.8465,
+        "close": 158.8555,
+        "tickVolume": 58
+      },
+      {
+        "openTime": "2026-11-23T02:21:00Z",
+        "open": 158.8625,
+        "high": 158.8735,
+        "low": 158.8615,
+        "close": 158.8645,
+        "tickVolume": 51
+      },
+      {
+        "openTime": "2026-11-23T02:22:00Z",
+        "open": 158.8665,
+        "high": 158.8705,
+        "low": 158.8545,
+        "close": 158.8585,
+        "tickVolume": 30
+      },
+      {
+        "openTime": "2026-11-23T02:23:00Z",
+        "open": 158.8605,
+        "high": 158.8735,
+        "low": 158.8535,
+        "close": 158.8675,
+        "tickVolume": 51
+      },
+      {
+        "openTime": "2026-11-23T02:24:00Z",
+        "open": 158.8705,
+        "high": 158.8775,
+        "low": 158.8645,
+        "close": 158.8655,
+        "tickVolume": 38
+      },
+      {
+        "openTime": "2026-11-23T02:25:00Z",
+        "open": 158.8665,
+        "high": 158.8745,
+        "low": 158.8565,
+        "close": 158.8565,
+        "tickVolume": 41
+      },
+      {
+        "openTime": "2026-11-23T02:26:00Z",
+        "open": 158.8505,
+        "high": 158.8845,
+        "low": 158.8505,
+        "close": 158.8795,
+        "tickVolume": 49
+      },
+      {
+        "openTime": "2026-11-23T02:27:00Z",
+        "open": 158.8775,
+        "high": 158.8805,
+        "low": 158.8415,
+        "close": 158.8465,
+        "tickVolume": 52
+      },
+      {
+        "openTime": "2026-11-23T02:28:00Z",
+        "open": 158.8445,
+        "high": 158.8455,
+        "low": 158.8285,
+        "close": 158.8305,
+        "tickVolume": 51
+      },
+      {
+        "openTime": "2026-11-23T02:29:00Z",
+        "open": 158.8285,
+        "high": 158.8355,
+        "low": 158.8255,
+        "close": 158.8305,
+        "tickVolume": 37
+      },
+      {
+        "openTime": "2026-11-23T02:30:00Z",
+        "open": 158.8325,
+        "high": 158.8345,
+        "low": 158.8155,
+        "close": 158.8205,
+        "tickVolume": 62
+      },
+      {
+        "openTime": "2026-11-23T02:31:00Z",
+        "open": 158.8215,
+        "high": 158.8385,
+        "low": 158.8175,
+        "close": 158.8295,
+        "tickVolume": 51
+      },
+      {
+        "openTime": "2026-11-23T02:32:00Z",
+        "open": 158.8305,
+        "high": 158.8445,
+        "low": 158.8105,
+        "close": 158.8195,
+        "tickVolume": 51
+      },
+      {
+        "openTime": "2026-11-23T02:33:00Z",
+        "open": 158.8215,
+        "high": 158.8315,
+        "low": 158.8165,
+        "close": 158.8315,
+        "tickVolume": 44
+      },
+      {
+        "openTime": "2026-11-23T02:34:00Z",
+        "open": 158.8305,
+        "high": 158.8595,
+        "low": 158.8305,
+        "close": 158.8595,
+        "tickVolume": 39
+      },
+      {
+        "openTime": "2026-11-23T02:35:00Z",
+        "open": 158.8575,
+        "high": 158.8705,
+        "low": 158.8545,
+        "close": 158.8675,
+        "tickVolume": 44
+      },
+      {
+        "openTime": "2026-11-23T02:36:00Z",
+        "open": 158.8645,
+        "high": 158.8665,
+        "low": 158.8455,
+        "close": 158.8625,
+        "tickVolume": 41
+      },
+      {
+        "openTime": "2026-11-23T02:37:00Z",
+        "open": 158.8615,
+        "high": 158.8725,
+        "low": 158.8605,
+        "close": 158.8675,
+        "tickVolume": 35
+      },
+      {
+        "openTime": "2026-11-23T02:38:00Z",
+        "open": 158.8695,
+        "high": 158.8695,
+        "low": 158.8495,
+        "close": 158.8585,
+        "tickVolume": 51
+      },
+      {
+        "openTime": "2026-11-23T02:39:00Z",
+        "open": 158.8595,
+        "high": 158.8675,
+        "low": 158.8435,
+        "close": 158.8455,
+        "tickVolume": 45
+      },
+      {
+        "openTime": "2026-11-23T02:40:00Z",
+        "open": 158.8445,
+        "high": 158.8515,
+        "low": 158.8395,
+        "close": 158.8405,
+        "tickVolume": 36
+      },
+      {
+        "openTime": "2026-11-23T02:41:00Z",
+        "open": 158.8415,
+        "high": 158.8465,
+        "low": 158.8035,
+        "close": 158.8055,
+        "tickVolume": 48
+      },
+      {
+        "openTime": "2026-11-23T02:42:00Z",
+        "open": 158.8035,
+        "high": 158.8225,
+        "low": 158.7945,
+        "close": 158.8215,
+        "tickVolume": 50
+      },
+      {
+        "openTime": "2026-11-23T02:43:00Z",
+        "open": 158.8205,
+        "high": 158.8615,
+        "low": 158.8165,
+        "close": 158.8605,
+        "tickVolume": 55
+      },
+      {
+        "openTime": "2026-11-23T02:44:00Z",
+        "open": 158.8585,
+        "high": 158.8745,
+        "low": 158.8555,
+        "close": 158.8725,
+        "tickVolume": 46
+      },
+      {
+        "openTime": "2026-11-23T02:45:00Z",
+        "open": 158.8745,
+        "high": 158.8975,
+        "low": 158.8725,
+        "close": 158.8895,
+        "tickVolume": 56
+      },
+      {
+        "openTime": "2026-11-23T02:46:00Z",
+        "open": 158.8885,
+        "high": 158.9065,
+        "low": 158.8725,
+        "close": 158.8935,
+        "tickVolume": 54
+      },
+      {
+        "openTime": "2026-11-23T02:47:00Z",
+        "open": 158.8965,
+        "high": 158.8995,
+        "low": 158.8765,
+        "close": 158.8795,
+        "tickVolume": 54
+      },
+      {
+        "openTime": "2026-11-23T02:48:00Z",
+        "open": 158.8815,
+        "high": 158.8925,
+        "low": 158.8665,
+        "close": 158.8895,
+        "tickVolume": 52
+      },
+      {
+        "openTime": "2026-11-23T02:49:00Z",
+        "open": 158.8925,
+        "high": 158.9105,
+        "low": 158.8925,
+        "close": 158.9035,
+        "tickVolume": 43
+      },
+      {
+        "openTime": "2026-11-23T02:50:00Z",
+        "open": 158.9025,
+        "high": 158.9235,
+        "low": 158.8995,
+        "close": 158.9095,
+        "tickVolume": 48
+      },
+      {
+        "openTime": "2026-11-23T02:51:00Z",
+        "open": 158.9085,
+        "high": 158.9375,
+        "low": 158.9085,
+        "close": 158.9345,
+        "tickVolume": 48
+      },
+      {
+        "openTime": "2026-11-23T02:52:00Z",
+        "open": 158.9355,
+        "high": 158.9375,
+        "low": 158.9275,
+        "close": 158.9285,
+        "tickVolume": 47
+      },
+      {
+        "openTime": "2026-11-23T02:53:00Z",
+        "open": 158.9295,
+        "high": 158.9315,
+        "low": 158.9075,
+        "close": 158.9155,
+        "tickVolume": 47
+      },
+      {
+        "openTime": "2026-11-23T02:54:00Z",
+        "open": 158.9165,
+        "high": 158.9245,
+        "low": 158.9095,
+        "close": 158.9185,
+        "tickVolume": 47
+      },
+      {
+        "openTime": "2026-11-23T02:55:00Z",
+        "open": 158.9215,
+        "high": 158.9275,
+        "low": 158.9145,
+        "close": 158.9225,
+        "tickVolume": 45
+      },
+      {
+        "openTime": "2026-11-23T02:56:00Z",
+        "open": 158.9215,
+        "high": 158.9325,
+        "low": 158.9155,
+        "close": 158.9205,
+        "tickVolume": 52
+      },
+      {
+        "openTime": "2026-11-23T02:57:00Z",
+        "open": 158.9195,
+        "high": 158.9295,
+        "low": 158.9185,
+        "close": 158.9245,
+        "tickVolume": 52
+      },
+      {
+        "openTime": "2026-11-23T02:58:00Z",
+        "open": 158.9255,
+        "high": 158.9365,
+        "low": 158.9195,
+        "close": 158.9325,
+        "tickVolume": 28
+      },
+      {
+        "openTime": "2026-11-23T02:59:00Z",
+        "open": 158.9335,
+        "high": 158.9415,
+        "low": 158.9285,
+        "close": 158.9365,
+        "tickVolume": 42
+      },
+      {
+        "openTime": "2026-11-23T03:00:00Z",
+        "open": 158.9415,
+        "high": 158.9475,
+        "low": 158.9275,
+        "close": 158.9475,
+        "tickVolume": 46
+      },
+      {
+        "openTime": "2026-11-23T03:01:00Z",
+        "open": 158.9515,
+        "high": 158.9515,
+        "low": 158.9305,
+        "close": 158.9385,
+        "tickVolume": 50
       }
     ],
     "1h": [
@@ -13315,21 +13324,61 @@
         "low": 158.473,
         "close": 158.546,
         "tickVolume": 1507
+      },
+      {
+        "openTime": "2026-11-22T22:00:00Z",
+        "open": 158.5825,
+        "high": 158.624,
+        "low": 158.54,
+        "close": 158.5715,
+        "tickVolume": 381
+      },
+      {
+        "openTime": "2026-11-22T23:00:00Z",
+        "open": 158.573,
+        "high": 158.942,
+        "low": 158.5305,
+        "close": 158.934,
+        "tickVolume": 2158
+      },
+      {
+        "openTime": "2026-11-23T00:00:00Z",
+        "open": 158.9405,
+        "high": 159.0415,
+        "low": 158.8205,
+        "close": 158.9145,
+        "tickVolume": 3337
+      },
+      {
+        "openTime": "2026-11-23T01:00:00Z",
+        "open": 158.9125,
+        "high": 158.9715,
+        "low": 158.8155,
+        "close": 158.8905,
+        "tickVolume": 3657
+      },
+      {
+        "openTime": "2026-11-23T02:00:00Z",
+        "open": 158.8925,
+        "high": 158.9615,
+        "low": 158.7945,
+        "close": 158.9365,
+        "tickVolume": 2846
       }
     ]
   },
   "quality": {
     "1m": {
       "count": 1440,
-      "missingBetweenBars": 3455,
+      "missingBetweenBars": 3309,
       "largestGapMinutes": 2887.0,
-      "lastClosedAt": "2026-11-22T22:27:00Z"
+      "lastClosedAt": "2026-11-23T03:01:00Z"
     },
     "1h": {
-      "count": 200,
-      "missingBetweenBars": 48,
+      "count": 205,
+      "missingBetweenBars": 96,
       "largestGapMinutes": 2940.0,
-      "lastClosedAt": "2026-11-20T21:00:00Z"
+      "lastClosedAt": "2026-11-23T02:00:00Z"
     }
   }
 }
